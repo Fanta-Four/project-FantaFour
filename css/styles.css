@@ -82,7 +82,7 @@ body {
   object-fit: cover;
 }
 
-h1 {
+.text-head-paragraph h1 {
   font-size: 40px;
   font-weight: 700;
   color: #FFFFFF;
@@ -97,7 +97,7 @@ h1 {
   text-align: left;
 }
 
-span {
+.text-head-paragraph span {
   font-family: "Inter Tight";
   font-size: 32px;
   font-weight: 600;
@@ -107,7 +107,7 @@ span {
   color: #FBFBFB4D;
 }
 
-p {
+.text-head-paragraph p {
   width: 450px;
   height: 60px;
   gap: 0px;
