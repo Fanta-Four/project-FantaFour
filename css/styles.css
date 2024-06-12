@@ -49,6 +49,185 @@ body {
 /* Hero Section */
 
 /* How It Works */
+.section-howitworks {
+  height: 759px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section-image {
+  background-color: #7A3145;
+  width: 630px;
+  padding: 100px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.section-text {
+  background-color: #576f35;
+  width: 650px;
+  top: 800px;
+  left: 630px;
+  padding: 90px;
+  gap: 10px;
+}
+
+.section-image img {
+  width: 430px;
+  height: 559px;
+  gap: 0px;
+  border-radius: 30px;
+  justify-content: center;
+  padding-left: 100px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  opacity: 0px;
+  width: 450px;
+  height: 96px;
+  font-family: "Inter Tight";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+span {
+  font-family: "Inter Tight";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #FBFBFB4D;
+}
+
+p {
+  width: 450px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #FBFBFB;
+}
+
+.text-head-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.step {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+  height: 76px;
+  padding: 12px 25px 12px 24px;
+  gap: 20px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #FBFBFB;
+
+}
+
+.step-block {
+  width: 42px;
+  height: 42px;
+  gap: 0px;
+  opacity: 0px;
+  border: 5px solid #7A31454D;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+.step-number {
+  font-family: "Inter Tight";
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #fbfbfb;
+  width: 42px;
+  height: 42px;
+  background: #7A3145;
+  border-radius: 100%;
+
+}
+
+.step span {
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #141414;
+
+}
+
+.step-one {
+  width: 325px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 10px;
+  color: rgba(20, 20, 20, 0.6);
+
+}
+
+.step-two {
+  width: 323px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 20px;
+  color: rgba(20, 20, 20, 0.6);
+}
+
+.step-three {
+  width: 323px;
+  height: 40px;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 10px;
+  color: rgba(20, 20, 20, 0.6);
+}
 
 /* Discount */
 
