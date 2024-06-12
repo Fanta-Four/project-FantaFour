@@ -63,13 +63,21 @@ body {
   opacity: 0px;
 }
 
-.section-text {
+.section-order {
   background-color: #576f35;
   width: 650px;
   top: 800px;
   left: 630px;
   padding: 90px;
   gap: 10px;
+}
+.order-text{
+  width: 450px;
+    height: 499px;
+    gap: 50px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-image img {
@@ -79,9 +87,13 @@ body {
   justify-content: center;
   object-fit: cover;
 }
+.text-head-paragraph h1 p{
+  width: 450px;
+  height: 181px;
+  gap: 25px;
+  opacity: 0px;
+}
 .text-head-paragraph h1 {
-  font-size: 40px;
-  font-weight: 700;
   color: #FFFFFF;
   opacity: 0px;
   width: 450px;
@@ -108,6 +120,7 @@ body {
   width: 450px;
   height: 60px;
   gap: 0px;
+  margin-top: 15px;
   opacity: 0px;
   font-family: "Inter Tight";
   font-size: 16px;
@@ -127,7 +140,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 15px;
+  width: 450px;
+  height: 268px;
+  gap: 20px;
+  opacity: 0px;
 }
 
 .step {
@@ -153,7 +170,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  
 
 }
 
@@ -193,7 +210,7 @@ body {
   line-height: 20px;
   letter-spacing: -0.02em;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 5px;
   color: rgba(20, 20, 20, 0.6);
 
 }
@@ -209,7 +226,7 @@ body {
   line-height: 20px;
   letter-spacing: -0.02em;
   text-align: left;
-  margin-top: 20px;
+  margin-top: 15px;
   color: rgba(20, 20, 20, 0.6);
 }
 
