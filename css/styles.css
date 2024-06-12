@@ -75,13 +75,10 @@ body {
 .section-image img {
   width: 430px;
   height: 559px;
-  gap: 0px;
   border-radius: 30px;
   justify-content: center;
-  padding-left: 100px;
   object-fit: cover;
 }
-
 .text-head-paragraph h1 {
   font-size: 40px;
   font-weight: 700;
@@ -147,8 +144,8 @@ body {
 }
 
 .step-block {
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
   gap: 0px;
   opacity: 0px;
   border: 5px solid #7A31454D;
@@ -170,7 +167,7 @@ body {
   width: 42px;
   height: 42px;
   background: #7A3145;
-  border-radius: 100%;
+  border-radius: 100%
 
 }
 
