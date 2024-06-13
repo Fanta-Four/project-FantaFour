@@ -56,4 +56,15 @@
         margin-bottom: 40px;
     }
 }
+
+/* order-form */
+
+.order-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 /* EOF */
