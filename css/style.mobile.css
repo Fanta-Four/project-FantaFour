@@ -1,93 +1,135 @@
-@media (max-width: 767px) {
-    body {
-        padding: 0 10px;
-    }
+/* Tablet styles for max 1280px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    /* Add your table styles here */
 
-    .hero-container {
-        /* Additional styles specific to the hero container on mobile can go here */
+    .container {
+        display: flex;
+        width: 100%;
+        max-width: 1920px;
+        height: 100%;
+        background-color: #576F35;
+        flex-direction: column;
     }
-
+    
     .text-content {
+        padding: 0 0 50px 0;
+        color: white;
         text-align: left;
-        padding: 10px 0 50px 0;
     }
-
+    
     .text-content h1 {
-        font-size: 48px;
-        line-height: 48px;
-        margin-bottom: 64px;
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 76px;
+        margin-bottom: 128px;
+        letter-spacing: -1.5%;
     }
-
+    
     .text-content p {
-        font-size: 14px;
-        line-height: 18px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 6px;
     }
-
+    
+    .image-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
     .image-content img {
         width: 100%;
         height: auto;
+        object-fit: cover;
+        border-radius: 10px;
     }
-}
-
-
-
-
-/* Mobile styles for max 768px */
-@media screen and (min-width: 375px) and (max-width: 767px) {
-    /* Your mobile styles go here */
-
-
-
-
-    /* Vegetables */
-
-
-    #vegetables {
-        font-size: 14px;
-    }
+    
     .vegetables-container {
         display: flex;
         flex-direction: column;
         background-color: var(--bg2-color);
-        padding: 80px 20px;
+        padding: 100px 32px;
     }
     .vegetables-cards-list {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         gap: 20px;
-        max-width: 334px;
-    }
+        max-width: 704px;
+        transition: all 0.3s ease-in-out;
+}
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
         border-radius: 40px;
-        padding: 32px 26px;
-    }
-    .vegetables-h {
-        font-size: 48px;
-        line-height: 50px;
-    }
-    .vegetables-p {
-        font-size: 14px;
-        line-height: 18px;
+        padding: 32px 30px;
+        transition: all 0.3s ease-in-out;
     }
 
-    
-    
+
+
     /* Review section */
     .review-container {
         align-items: flex-start;
         margin: 0 25px;
     }
-    .review-title-list {
-        gap: 20px;
-    }
     .review-cards {
         gap: 25px;
-        overflow: hidden;
     }
     .review-description {
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
+
+
+    /* How it works section */
+    .section-howitworks {
+        display: flex;
+        flex-direction: column;
+        width: 768px;
+        height: 1, 539px;
+        top: 1024px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .section-image{
+        width: 768px;
+        height: 840px;
+        padding: 100px 64px 100px 64px;
+        gap: 10px;
+        opacity: 0px;
+    }
+    .section-image img{
+        width: 640px;
+        height: 640px;
+        border-radius: 30px;
+        opacity: 0px;
+        background: rgba(20, 20, 20, 0.3);
+    }
+    .section-text{
+       width: 768px;
+       height: 699px;
+       padding: 100px 159px 100px 159px;
+       gap: 10px;
+       opacity: 0px;
+    }
+        .text-head-paragraph{
+            width: 450px;
+            height:181px;
+            gap: 25px;
+            opacity: 0px;
+            margin-bottom: 20px;
+        }
+        .text-head-paragraph h1 {
+            width: 450px;
+            height: 96px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+
+
+
 }
 /* EOF */
