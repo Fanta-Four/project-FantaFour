@@ -1,7 +1,10 @@
-/* Mobile Styles */
 @media (max-width: 767px) {
     body {
         padding: 0 10px;
+    }
+
+    .hero-container {
+        /* Additional styles specific to the hero container on mobile can go here */
     }
 
     .text-content {
@@ -20,15 +23,12 @@
         line-height: 18px;
     }
 
-    .container {
-        width: 100%;
-    }
-
     .image-content img {
         width: 100%;
         height: auto;
     }
 }
+
 
 
 
