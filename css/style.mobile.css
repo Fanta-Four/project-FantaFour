@@ -55,4 +55,15 @@
         line-height: 18px;
     }
 }
+
+/* order-form */
+
+.order-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 /* EOF */
