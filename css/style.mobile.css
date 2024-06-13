@@ -5,23 +5,6 @@
 
 
 
-    /* Review section */
-    .review-container {
-        align-items: flex-start;
-        margin: 0 25px;
-    }
-    .review-title-list {
-        gap: 20px;
-    }
-    .review-cards {
-        gap: 25px;
-        overflow: hidden;
-    }
-    .review-description {
-        margin-bottom: 40px;
-    }
-
-
     /* Vegetables */
 
 
@@ -39,7 +22,7 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 20px;
-        max-width: 1080px;
+        max-width: 334px;
     }
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
@@ -53,6 +36,24 @@
     .vegetables-p {
         font-size: 14px;
         line-height: 18px;
+    }
+
+    
+    
+    /* Review section */
+    .review-container {
+        align-items: flex-start;
+        margin: 0 25px;
+    }
+    .review-title-list {
+        gap: 20px;
+    }
+    .review-cards {
+        gap: 25px;
+        overflow: hidden;
+    }
+    .review-description {
+        margin-bottom: 40px;
     }
 }
 
