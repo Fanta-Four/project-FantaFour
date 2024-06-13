@@ -37,18 +37,19 @@
     }
 
  /* order-form */
+
  .order-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 1576px;
-
+    padding-top: 100px;
  }
 
 .order-form-box {
     width: 428px;
     margin: auto;
+
 }
 
 .order-first-section {
@@ -58,7 +59,6 @@
     
 }
 
-
 .order-title-text {
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@
     margin: 0px;
     padding: 0;
     height: 277px;
-
+   
 }
 
 .order-title {
@@ -101,8 +101,9 @@ margin-top: 25px;
 }
 
 .order-social-img {
-width: 528px;
-height: 273px;
+object-fit: cover;
+
+
 }
     
 .order-social-ul {
