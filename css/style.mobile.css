@@ -1,3 +1,37 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+    body {
+        padding: 0 10px;
+    }
+
+    .text-content {
+        text-align: left;
+        padding: 10px 0 50px 0;
+    }
+
+    .text-content h1 {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 64px;
+    }
+
+    .text-content p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .image-content img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
 /* Mobile styles for max 768px */
 @media screen and (min-width: 375px) and (max-width: 767px) {
     /* Your mobile styles go here */
