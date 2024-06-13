@@ -4,38 +4,32 @@
     }
 
     .hero-container {
-        /* Additional styles specific to the hero container on tablet can go here */
+        flex-direction: row;
+        text-align: left;
     }
 
     .text-content {
-        flex: 1;
-        text-align: left;
         padding: 20px;
-        padding-bottom: 50px;
     }
 
     .image-content {
-        flex: 1;
-        height: 100%;
+        padding: 20px;
     }
 
     .image-content img {
-        height: 100%;
+        height: auto;
     }
 }
 
 
-
-
-/* Tablet styles for max 1280px */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-    /* Add your table styles here */
     .vegetables-container {
         display: flex;
         flex-direction: column;
         background-color: var(--bg2-color);
         padding: 100px 32px;
     }
+
     .vegetables-cards-list {
         display: flex;
         flex-wrap: wrap;
@@ -43,7 +37,8 @@
         gap: 20px;
         max-width: 704px;
         transition: all 0.3s ease-in-out;
-}
+    }
+
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
         border-radius: 40px;
@@ -51,20 +46,16 @@
         transition: all 0.3s ease-in-out;
     }
 
-
-
-    /* Review section */
     .review-container {
         align-items: flex-start;
         margin: 0 25px;
     }
+
     .review-cards {
         gap: 25px;
     }
+
     .review-description {
         margin-bottom: 50px;
     }
-
-
 }
-/* EOF */
