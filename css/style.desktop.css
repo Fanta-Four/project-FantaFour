@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&display=swap');
-
 body {
     margin: 0;
     font-family: 'Inter Tight', sans-serif;
@@ -19,6 +17,10 @@ body {
     height: 100%;
     background-color: #576F35;
     flex-direction: column;
+}
+
+.hero-container {
+    /* Additional styles specific to the hero container can go here */
 }
 
 .text-content {
@@ -54,29 +56,6 @@ body {
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-}
-
-/* Tablet and Desktop Styles */
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
-    }
-
-    .text-content {
-        flex: 1;
-        text-align: left;
-        padding: 20px;
-        padding-bottom: 50px;
-    }
-
-    .image-content {
-        flex: 1;
-        height: 100%;
-    }
-
-    .image-content img {
-        height: 100%;
-    }
 }
 
 
