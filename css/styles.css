@@ -62,8 +62,15 @@ body {
   gap: 10px;
   opacity: 0px;
 }
+.section-image img {
+  width: 430px;
+  height: 559px;
+  border-radius: 30px;
+  justify-content: center;
+  object-fit: cover;
+}
 
-.section-order {
+.section-how-it-order {
   background-color: #576f35;
   width: 650px;
   top: 800px;
@@ -71,7 +78,7 @@ body {
   padding: 90px;
   gap: 10px;
 }
-.order-text{
+.how-it-order-text{
   width: 450px;
     height: 499px;
     gap: 50px;
@@ -80,13 +87,6 @@ body {
     flex-direction: column;
 }
 
-.section-image img {
-  width: 430px;
-  height: 559px;
-  border-radius: 30px;
-  justify-content: center;
-  object-fit: cover;
-}
 .text-head-paragraph h1 p{
   width: 450px;
   height: 181px;
@@ -133,7 +133,10 @@ body {
 .text-head-paragraph {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  width: 450px;
+  height: 181px;
+  gap: 25px;
+  opacity: 0px;
 }
 
 .steps {
