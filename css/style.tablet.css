@@ -1,3 +1,32 @@
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .hero-container {
+        /* Additional styles specific to the hero container on tablet can go here */
+    }
+
+    .text-content {
+        flex: 1;
+        text-align: left;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    .image-content {
+        flex: 1;
+        height: 100%;
+    }
+
+    .image-content img {
+        height: 100%;
+    }
+}
+
+
+
+
 /* Tablet styles for max 1280px */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     /* Add your table styles here */
