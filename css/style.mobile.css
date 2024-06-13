@@ -55,6 +55,84 @@
     .review-description {
         margin-bottom: 40px;
     }
+
+    /* How it works section */
+       .section-howitworks {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 1184px;
+        top: 812px;
+        gap: 0px;
+        opacity: 0px;
+       
+    }
+    .section-image{
+        width: 375px;
+        height: 530px;
+        padding: 40px 20px 40px 20px;
+        gap: 10px;
+        opacity: 0px;
+    }
+    .section-image img{
+        width: 335px;
+        height: 450px;
+        gap: 0px;
+        border-radius: 30px;
+        opacity: 0px;
+    }
+    .section-how.it-order{
+        width: 375px;
+        height: 654px;
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
+        opacity: 0px;
+    }
+    .text-head-paragraph{
+        width: 335px;
+        height: 186px;
+        gap: 20px;
+        opacity: 0px;
+    }
+    .text-head-paragraph h1{
+        width: 335px;
+        height: 112px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter Tight";
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+    .text-head-paragraph span{
+        font-family: "Inter Tight";
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+    .text-head-paragraph p{
+        width: 335px;
+        height: 54px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Inter Tight";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+    .steps{
+    width: 335px;
+    height: 268px;
+    gap: 20px;
+    opacity: 0px;
+    }
+    
+
 }
 
 /* order-form */
