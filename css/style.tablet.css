@@ -29,13 +29,24 @@
     /* Review section */
     .review-container {
         align-items: flex-start;
-        margin: 0 25px;
+        padding: 100px 32px;
+        gap: 50px;
+        transition: all 1 ease-in-out;
+    }
+    .review-title {
+        max-width: 553px;
+    }
+    .review-cards-container {
+        width: 100%;
+        justify-content: center;
     }
     .review-cards {
-        gap: 25px;
+        gap: 18px;
+        transition: all 0.3s ease-in-out;
     }
-    .review-description {
-        margin-bottom: 50px;
+
+    .review-card-item:nth-last-child(1) {
+        display: none;
     }
 
     /* order-form */
