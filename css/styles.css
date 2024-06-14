@@ -586,7 +586,7 @@ body {
   color:#576F35;
   
   }
-
+  
   
   .order-form-social-box {
   display: flex;
@@ -604,21 +604,20 @@ body {
   margin-top: 50px;
   }
 
-
-
   .order-social-img-container {
-    position: absolute;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/order-social-box.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
     width: 427px;
     height: 273px;
-    background-color: rgba(20, 20, 20, 0.3);
     border-radius: 15px;
-  
-  }
+    
+    }
 
-
-.order-social-img {
-  border-radius: 15px;
-
+.order-img {
+object-fit: cover;
+border-radius: 15px;
 }
 
 .order-social-text {

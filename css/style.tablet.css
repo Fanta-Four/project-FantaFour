@@ -114,6 +114,11 @@ height: 490px;
 margin-top: 25px;
 }
 
+.order-social-img {
+object-fit: cover;
+
+
+}
     
 .order-social-ul {
 display: flex;
