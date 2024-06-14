@@ -750,11 +750,12 @@ margin-right: 12px;
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  color: rgba(251, 251, 251, 0.5);
 }
 
 .footer-bottom a {
-  color: #FBFBFB;
   text-decoration: none;
+    color: rgba(251, 251, 251, 0.5);
 }
 
 .footer-bottom a:hover {
