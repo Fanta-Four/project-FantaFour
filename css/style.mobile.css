@@ -43,93 +43,109 @@
     /* Review section */
     .review-container {
         align-items: flex-start;
-        margin: 0 25px;
+        gap: 40px;
+        padding: 80px 20px;
     }
-    .review-title-list {
-        gap: 20px;
+    .review-title {
+        max-width: 335px;
+    }
+    .review-cards-container {
+        width: 100%;
+        justify-content: center;
     }
     .review-cards {
         gap: 25px;
         overflow: hidden;
     }
-    .review-description {
-        margin-bottom: 40px;
+    .review-section-title {
+        font-size: 48px;
+        line-height: 50px;
+        width: 80%;
+        
     }
 
+    .review-card-item:nth-last-child(1) {
+        display: none;
+    }
+    .review-card-item:nth-last-child(2) {
+        display: none;
+    }
+
+
     /* How it works section */
-          .section-howitworks {
-              display: flex;
-              flex-direction: column;
-              width: 375px;
-              height: 1184px;
-              top: 812px;
-    
-          }
-    
-          .section-image {
-              height: 530px;
-              padding: 40px 20px 40px 20px;
-              gap: 10px;
-          }
-    
-          .section-image img {
-              width: 335px;
-              height: 450px;
-              border-radius: 30px;
-          }
-    
-          .section-how.it-order {
-              height: 654px;
-              padding: 80px 20px 80px 20px;
-              gap: 40px;
-          }
-    
-          .text-head-paragraph {
-              width: 335px;
-              height: 186px;
-              gap: 20px;
-              opacity: 0px;
-          }
-    
-          .text-head-paragraph h1 {
-              width: 335px;
-              height: 112px;
-              font-family: "Inter Tight";
-              font-size: 28px;
-              font-weight: 600;
-              line-height: 28px;
-              letter-spacing: -0.015em;
-              text-align: left;
-          }
-    
-          .text-head-paragraph span {
-              font-family: "Inter Tight";
-              font-size: 28px;
-              font-weight: 600;
-              line-height: 28px;
-              letter-spacing: -0.015em;
-              text-align: left;
-          }
-    
-          .text-head-paragraph p {
-              width: 335px;
-              height: 54px;
-              font-family: "Inter Tight";
-              font-size: 14px;
-              font-weight: 500;
-              line-height: 18px;
-              text-align: left;
-          }
-    
-          .steps {
-              width: 335px;
-              height: 268px;
-              gap: 20px;
-    
-          }
+    .section-howitworks {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 1184px;
+        top: 812px;
+
+    }
+
+    .section-image {
+        height: 530px;
+        padding: 40px 20px 40px 20px;
+        gap: 10px;
+    }
+
+    .section-image img {
+        width: 335px;
+        height: 450px;
+        border-radius: 30px;
+    }
+
+    .section-how.it-order {
+        height: 654px;
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
+    }
+
+    .text-head-paragraph {
+        width: 335px;
+        height: 186px;
+        gap: 20px;
+        opacity: 0px;
+    }
+
+    .text-head-paragraph h1 {
+        width: 335px;
+        height: 112px;
+        font-family: "Inter Tight";
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+
+    .text-head-paragraph span {
+        font-family: "Inter Tight";
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+
+    .text-head-paragraph p {
+        width: 335px;
+        height: 54px;
+        font-family: "Inter Tight";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .steps {
+        width: 335px;
+        height: 268px;
+        gap: 20px;
+
+    }
     
 
-/* order-form */
+    /* order-form */
 
 .order-box {
     display: flex;
@@ -228,6 +244,7 @@ height: 100%;
 .order-form-input-label {
     font-size: 14px;
 }
+
 
 .order-form-input-label-text-area {
     font-size: 14px;

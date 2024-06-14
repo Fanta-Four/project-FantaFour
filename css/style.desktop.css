@@ -14,14 +14,19 @@
         margin: 0 auto;
     }
     .review-title {
-        width: 50%;
+        max-width: 553px;
     }
 
     .review-description {
         margin-bottom: 50px;
     }
+    .review-cards-container {
+        width: 100%;
+        justify-content: center;
+    }
     .review-cards {
         gap: 25px;
+
 
     }
 
