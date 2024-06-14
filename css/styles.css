@@ -38,9 +38,6 @@ ul {
 a {
   text-decoration: none;
 }
-ul {
-    list-style-type: none;
-}
 body {
   font-family: "Inter Tight", sans-serif;
   font-size: 16px;
@@ -48,7 +45,6 @@ body {
 
 /* Hero Section */
 
-/* How It Works */
 /* How It Works */
 .section-howitworks {
   display: flex;
@@ -315,40 +311,41 @@ body {
     padding: 100px;
     display: flex;
     flex-direction: column;
+    transition: all 1 ease-in-out;
 }
 .review-section-title {
     text-transform: uppercase;
     text-align: left;
-    font-family: "Inter", sans-serif;
     font-size: 64px;
     font-weight: 600;
     line-height: 64px;
     letter-spacing: -0.015em;
-    gap: 25px;
 }
 .review-title-list {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    transition: all 1 ease-in-out;
 }
 .title-color-span {
   color: var(--bg1-color);
   text-transform: uppercase;
 }
 .review-description {
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     text-align: left;
 }
-
+.review-cards-container {
+    display: flex;
+}
 .review-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     background-color: var(--white-color);
+    transition: all 1s ease-in-out;
 }
 
 .review-card-item {
@@ -361,6 +358,7 @@ body {
     padding: 20px;
     border-radius: 24px;
     opacity: 0px;
+    transition: all 1 ease-in-out;
 }
 .review-card {
     border-radius: 10px;
