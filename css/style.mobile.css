@@ -140,9 +140,16 @@
               gap: 20px;
     
           }
-          .step{
-            width:335px;
-          }
+    
 
-          }
+/* order-form */
+
+.order-box {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
 /* EOF */
+}
