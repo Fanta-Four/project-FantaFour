@@ -37,13 +37,13 @@
 }
 
  /* order-form */
-
- .order-box {
+.order-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 1576px;
     padding-top: 100px;
+
  }
 
 .order-form-box {
@@ -86,15 +86,15 @@ align-items: center;
 justify-content: center;
 margin-top: 50px;
 width: 768px;
-}
+ }
 
-.order-social-img-container {
-width: 528px;
-height: 273px;
-background-color: rgba(20, 20, 20, 0.3);
-border-radius: 15px;
-
-}
+ .order-social-img-container {
+    width: 528px;
+    height: 273px;
+    background-color: rgba(20, 20, 20, 0.3);
+    border-radius: 15px;
+  
+  }
 
 .order-social-img {
 object-fit: cover;
@@ -114,17 +114,12 @@ height: 490px;
 margin-top: 25px;
 }
 
-.order-social-img {
-object-fit: cover;
-
-
-}
     
 .order-social-ul {
 display: flex;
 flex-wrap: nowrap;
 }
-
+  
 
 /* How it works section */
 .section-howitworks {
