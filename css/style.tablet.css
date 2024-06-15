@@ -41,7 +41,6 @@
         .section-howitworks {
             display: flex;
             flex-direction: column;
-    
             height: 1539px;
             top: 1024px;
     
@@ -53,13 +52,20 @@
             height: 840px;
             padding: 100px 64px 100px 64px;
             gap: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
     
         }
     
-        .section-image img {
-    
+        .section-image .section-image-container {
+            width: 640px;
+            height: 640px;
             border-radius: 30px;
-    
+            background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/howitworks-image.png);
+                background-size: cover;
+                background-position: center;
+            
         }
     
         .section-how-it-order {

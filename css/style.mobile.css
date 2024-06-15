@@ -60,28 +60,41 @@
           .section-howitworks {
               display: flex;
               flex-direction: column;
-              width: 375px;
+              /*width: 375px;*/
               height: 1184px;
               top: 812px;
     
           }
     
           .section-image {
+            width: 375px;
               height: 530px;
               padding: 40px 20px 40px 20px;
               gap: 10px;
+               display: flex;
+              justify-content: center;
+                align-items: center;
           }
     
-          .section-image img {
+          .section-image .section-image-container {
               width: 335px;
               height: 450px;
               border-radius: 30px;
+            background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/howitworks-image.png);
+                background-size: cover;
+                background-position: center;
           }
     
-          .section-how.it-order {
+          .section-how-it-order {
+             width: 375px;
               height: 654px;
               padding: 80px 20px 80px 20px;
               gap: 40px;
+            
+          }
+          .how-it-order-text{
+            width: 375px;
+
           }
     
           .text-head-paragraph {
@@ -122,12 +135,14 @@
           }
     
           .steps {
-              width: 335px;
+              max-width: 335px;
               height: 268px;
               gap: 20px;
     
           }
-    
-    
+          .step{
+            width:335px;
+          }
+
           }
 /* EOF */
