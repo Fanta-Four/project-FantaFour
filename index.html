@@ -33,7 +33,7 @@
             // Rastgele index çağır
             const randomIndex = Math.floor(Math.random() * favicons.length);
             const favicon = favicons[randomIndex];
-            
+
             document.getElementById('dynamic-favicon').setAttribute('href', favicon);
         }
         // Sayfa Açılışında fonksiyonu çalıştır
@@ -57,7 +57,7 @@
                 <li><a href="#reviews">Reviews</a></li>
             </ul>
             <div class="header-button">
-            <button class="shop-now-btn"><a href="#order">SHOP NOW</a></button>
+                <button class="shop-now-btn"><a href="#order">SHOP NOW</a></button>
             </div>
         </nav>
     </header>
@@ -65,9 +65,9 @@
     <!-- Hero Section -->
     <section id="hero">
         <!-- Content for "Hero" section here -->
-         <div class="hero-container">
+        <div class="hero-container">
             <h1 class="hero-title">Hero Section</h1>
-         </div>
+        </div>
     </section>
 
     <!-- How It Works Section -->
@@ -89,7 +89,7 @@
                         of fresh fruit without ever leaving your home.</P>
                 </div>
 
-                <div class="steps">
+                <!-- <div class="steps">
                     <div class="step">
                         <div class="step-block">
                             <div class="step-number">
@@ -124,6 +124,22 @@
                         <div class="step-three">Sit back and relax! Your <span>fresh vegetables</span> basket will be
                             delivered.</div>
                     </div>
+                </div> -->
+                <div class="how-it-order-list-container">
+                    <ol class="how-it-order-list">
+                        <li>
+                            Just choose <span>the vegetable</span> you want to order by clicking on
+                            the checkboxes <span>next to it</span>.
+                        </li>
+                        <li>
+                            Click on <span>the basket</span> and fill out the form.
+                        </li>
+                        <li>
+                            Sit back and relax! Your <span>fresh vegetables</span> basket will be
+                            delivered.
+                        </li>
+
+                    </ol>
                 </div>
 
             </div>
@@ -260,82 +276,93 @@
     </section>
 
     <!-- Order Section -->
-     <section id="order">
+    <section id="order">
         <!-- Content for "Order" section here -->
         <div class="order-box">
             <div class="order-first-section">
 
-            <div class="order-title-text">
-            <h2 class="order-title">Fresh <span class="order-title-span">Harvest</span> Box has got you covered</h2>
-            <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-        </div>
+                <div class="order-title-text">
+                    <h2 class="order-title">Fresh <span class="order-title-span">Harvest</span> Box has got you covered
+                    </h2>
+                    <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone
+                        looking to eat healthier or support local farmers. Order your box today and start enjoying the
+                        best that nature has to offer!</p>
+                </div>
             </div>
 
 
-    <div class="order-form-social-box">
-    <div class="order-form">
-      <div class="order-form-box">     
-    <p class="order-form-text">Ordering <span class="order-form-span-from-us">from us</span> is quick and easy! Fill out <span class="order-form-one-span-the-form">the form</span> below and we will contact you !</p>
-            
-    <form>
-        <div class="order-form-input-group">
-            <div class="order-input-group">
-                <input type="text" name="text" class="order-form-input-text" placeholder="" required>
-                <label class="order-form-input-label">Full Name</label>
-            </div>
+            <div class="order-form-social-box">
+                <div class="order-form">
+                    <div class="order-form-box">
+                        <p class="order-form-text">Ordering <span class="order-form-span-from-us">from us</span> is
+                            quick and easy! Fill out <span class="order-form-one-span-the-form">the form</span> below
+                            and we will contact you !</p>
 
-            <div class="order-input-group">
-                <input type="email" class="order-form-input-email" placeholder="" required>
-                <label class="order-form-input-label">Email</label>
-                <p class="text-invalid">Invalid email, try again</p>
-            </div>
+                        <form>
+                            <div class="order-form-input-group">
+                                <div class="order-input-group">
+                                    <input type="text" name="text" class="order-form-input-text" placeholder=""
+                                        required>
+                                    <label class="order-form-input-label">Full Name</label>
+                                </div>
 
-            <div class="order-input-group">
-                <textarea class="order-form-textarea" placeholder=""></textarea>
-                <label class="order-form-input-label-text-area">Comment</label>
-            </div>
-        </div>
+                                <div class="order-input-group">
+                                    <input type="email" class="order-form-input-email" placeholder="" required>
+                                    <label class="order-form-input-label">Email</label>
+                                    <p class="text-invalid">Invalid email, try again</p>
+                                </div>
 
-        <button type="submit" class="order-form-button">SEND</button>
-       
-    </form>
+                                <div class="order-input-group">
+                                    <textarea class="order-form-textarea" placeholder=""></textarea>
+                                    <label class="order-form-input-label-text-area">Comment</label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="order-form-button">SEND</button>
+
+                        </form>
 
 
-                        </div>
+                    </div>
+                </div>
+
+                <div class="order-social-box">
+                    <div class="order-social">
+
+                        <div class="order-social-img-container"></div>
+
+                        <img class="order-social-img" src="./images/order-social-box-final.jpg" width="427" height="273"
+                            alt="unrecognizable-sportswoman-using-lemon-while-making-fruit-smoothie-home">
+
                     </div>
 
-<div class="order-social-box">
-        <div class="order-social">
-            
-            <div class="order-social-img-container"></div>
-                       
-                <img class="order-social-img" src="./images/order-social-box-final.jpg" width="427" height="273" alt="unrecognizable-sportswoman-using-lemon-while-making-fruit-smoothie-home">
-                
-        </div>
-             
 
-            <div class="order-social-text">
-                <p class="order-social-p">Follow us on our social networks:</p>
-                <ul class="order-social-ul">
-                    <li>
-                        <p class="order-social-slash"><span><a href="https://www.instagram.com/goit.turkiye/" class="order-social-link" target="_blank">instagram</a></span>/</p>
-                    </li>
-                    <li>
-                        <p class="order-social-slash"><span><a href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/" class="order-social-link" target="_blank">facebook</a></span>/</p>
-                    </li>
-                    <li>
-                        <a href="https://m.youtube.com/@GoITTurkey" class="order-social-link" target="_blank">youtube</a>
-                    </li>
-                </ul>
+                    <div class="order-social-text">
+                        <p class="order-social-p">Follow us on our social networks:</p>
+                        <ul class="order-social-ul">
+                            <li>
+                                <p class="order-social-slash"><span><a href="https://www.instagram.com/goit.turkiye/"
+                                            class="order-social-link" target="_blank">instagram</a></span>/</p>
+                            </li>
+                            <li>
+                                <p class="order-social-slash"><span><a
+                                            href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
+                                            class="order-social-link" target="_blank">facebook</a></span>/</p>
+                            </li>
+                            <li>
+                                <a href="https://m.youtube.com/@GoITTurkey" class="order-social-link"
+                                    target="_blank">youtube</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
+
         </div>
-    </div>
-    
-    </div>
 
-    </div>
+        </div>
 
-        </div>      
+        </div>
 
     </section>
 
@@ -349,8 +376,8 @@
                         <svg width="194" height="18" class="logo-size">
                             <use href="./images/icons.svg#icon-logo_tablet_desktop"></use>
                         </svg>
-                        
-                       
+
+
                         <p>Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the
                             perfect choice.</p>
                     </div>
@@ -371,7 +398,7 @@
                     <p>© Green Harvest 2023</p>
                 </div>
 
-    </footer>
+            </footer>
 </body>
 
 </html>
