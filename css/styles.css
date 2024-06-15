@@ -675,16 +675,13 @@ margin-right: 12px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  align-items: baseline;
 }
 
 .footer-logo {
   width: 265px;
   height: 103px;
-  
-}
-
-.logo-size {
-  margin top: 25px;
+  min-width: 265px;
 }
 
 .footer-logo p {
@@ -694,11 +691,13 @@ margin-right: 12px;
 .footer-links {
   width: 177px;
   height: 146px;
+  min-width: 177px;
 }
 
 .footer-contact {
   width: 215px;
   height: 85px;
+  min-width: 215px;
 }
 
 .footer-links ul {
@@ -716,7 +715,6 @@ margin-right: 12px;
   color: #FBFBFB;
   text-decoration: none;
   font-size: 31px;
-  
 }
 
 .footer-links a:hover {
@@ -729,7 +727,6 @@ margin-right: 12px;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  
 }
 
 .footer-contact a:hover {
@@ -755,13 +752,12 @@ margin-right: 12px;
 
 .footer-bottom a {
   text-decoration: none;
-    color: rgba(251, 251, 251, 0.5);
+  color: rgba(251, 251, 251, 0.5);
 }
 
 .footer-bottom a:hover {
   text-decoration: underline;
 }
-
 
 
 /* EOF */

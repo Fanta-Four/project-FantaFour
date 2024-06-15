@@ -14,7 +14,8 @@
         gap: 20px;
         max-width: 704px;
         transition: all 0.3s ease-in-out;
-}
+    }
+
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
         border-radius: 40px;
@@ -37,5 +38,45 @@
     }
 
 
+    /*FOOTER*/
+   
+        
+    .footer-content {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .link-contact {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        
+    }
+
+    .footer-contact {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        
+        
+    }
 }
+
+
+
+
 /* EOF */
