@@ -126,7 +126,10 @@ body {
   text-transform: uppercase;
   color: #fbfbfb;
 }
-
+.shop-now-btn a {
+  color: #fbfbfb;
+  text-decoration: none;
+}
 .shop-now-btn:hover {
   background-color: #622133;
   /* Hover durumunda buton rengi */
@@ -824,7 +827,7 @@ body {
     background-color: #386301;
     cursor: pointer;
   }
-  
+
 /* Footer Section */
 
 
