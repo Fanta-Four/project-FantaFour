@@ -497,7 +497,6 @@ body {
 }
 /* Order */
 
-
 .order-box {
   display: flex;
   flex-direction: column;
@@ -586,7 +585,7 @@ body {
   color:#576F35;
   
   }
-  
+
   
   .order-form-social-box {
   display: flex;
@@ -604,20 +603,21 @@ body {
   margin-top: 50px;
   }
 
+
+
   .order-social-img-container {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/order-social-box.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
+    position: absolute;
     width: 427px;
     height: 273px;
+    background-color: rgba(20, 20, 20, 0.3);
     border-radius: 15px;
-    
-    }
+  
+  }
 
-.order-img {
-object-fit: cover;
-border-radius: 15px;
+
+.order-social-img {
+  border-radius: 15px;
+
 }
 
 .order-social-text {
@@ -669,6 +669,161 @@ border-radius: 15px;
   color: #FBFBFB;
   
   }
+  
+  /* input label transition */ 
+  
+  .order-form-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #FBFBFB;
+  position: relative;
+  
+  }
+  
+  .order-input-group {
+  position: relative;
+  width: 429px;
+  
+  }
+  
+  .order-form-input-text, .order-form-input-email, .order-form-textarea {
+    width: 100%;
+    padding: 16px 16px;
+    border: 1px solid #14141433;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  
+  }
+  
+  .order-form-input-text:focus, .order-form-input-text:hover, 
+  .order-form-input-email:focus, .order-form-input-email:hover, 
+  .order-form-textarea:focus, .order-form-textarea:hover {
+  border-color: #7A3145; 
+  
+  }
+  
+  .order-form-input-text, .order-form-input-email {
+  width: 429px;
+  height: 52px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px solid #14141433;
+  background: transparent;
+  }
+  
+  .order-form-input-label {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #141414;
+    transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  
+  
+  .order-form-input-label-text-area {
+      position: absolute;
+      top: 25%;
+      left: 16px;
+      transform: translateY(-50%);
+      pointer-events: none;
+      color: #141414;
+      transition: top 0.3s ease-in-out, font-size 0.3s ease-in-out;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+    
+    
+    .order-form-textarea {
+      width: 429px;
+      height: 95px;
+      padding-top: 16px;
+      padding-left: 16px;
+      border-radius: 15px;
+      border: 1px solid #14141433;
+      background-color: transparent;
+      
+      }
+  
+    .text-valid,
+    .text-invalid {
+      font-size: 14px;
+      padding-left: 20px;
+      margin-top: 4px;
+      display: none;
+    }
+    
+    .order-form-input-email:not(:placeholder-shown):invalid {
+      border-color: #E74A3B;
+    
+    }
+    
+    .order-form-input-email:not(:placeholder-shown):valid {
+      border-color: #3CBC81;
+   
+    }
+      
+    .text-valid {
+      color: #3CBC81;
+    }
+    
+    .text-invalid {
+      color: #E74A3B;
+      font-size: 0.9em;
+      display: none;
+    }
+    
+    .order-form-input-email:not(:placeholder-shown):invalid ~ .text-invalid {
+      display: block;
+      
+    }
+  
+    .order-form-input-email:invalid + .text-invalid {
+      display: block;
+    }
+  
+    .order-form-input-text:focus + .order-form-input-label,
+    .order-form-input-text:not(:placeholder-shown) + .order-form-input-label,
+    .order-form-input-email:focus + .order-form-input-label,
+    .order-form-input-email:not(:placeholder-shown) + .order-form-input-label,
+    .order-form-textarea:focus + .order-form-input-label-text-area,
+    .order-form-textarea:not(:placeholder-shown) + .order-form-input-label-text-area {
+        top: 10px;
+        font-size: 12px;
+        color: #141414;
+    }
+  
+     
+  .order-form-button {
+  margin-top: 25px;
+  width: 429px;
+  height: 52px;
+  padding: 16px 191px 16px 191px;
+  border-radius: 30px;
+  background-color:#576F35;
+  color: #FBFBFB;
+  border: none;
+  margin-bottom: 50px;
+  }
+  
+  .order-form-button:hover {
+    background-color: #386301;
+    cursor: pointer;
+  }
+  
   
   /* input label transition */ 
   
