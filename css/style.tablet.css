@@ -1,6 +1,8 @@
 /* Tablet styles for max 1280px */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     /* Add your table styles here */
+
+    /* Vegetables section */
     .vegetables-container {
         display: flex;
         flex-direction: column;
@@ -14,7 +16,7 @@
         gap: 20px;
         max-width: 704px;
         transition: all 0.3s ease-in-out;
-}
+    }
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
         border-radius: 40px;
@@ -27,28 +29,40 @@
     /* Review section */
     .review-container {
         align-items: flex-start;
-        margin: 0 25px;
+        padding: 100px 32px;
+        gap: 50px;
+        transition: all 1 ease-in-out;
+    }
+    .review-title {
+        max-width: 553px;
+    }
+    .review-cards-container {
+        width: 100%;
+        justify-content: center;
     }
     .review-cards {
-        gap: 25px;
+        gap: 18px;
+        transition: all 0.3s ease-in-out;
     }
-    .review-description {
-        margin-bottom: 50px;
+
+    .review-card-item:nth-last-child(1) {
+        display: none;
     }
 
  /* order-form */
- .order-box {
+.order-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 1576px;
+    padding-top: 100px;
 
  }
 
 .order-form-box {
     width: 428px;
     margin: auto;
+
 }
 
 .order-first-section {
@@ -58,7 +72,6 @@
     
 }
 
-
 .order-title-text {
     display: flex;
     flex-direction: column;
@@ -66,7 +79,7 @@
     margin: 0px;
     padding: 0;
     height: 277px;
-
+   
 }
 
 .order-title {
@@ -88,6 +101,20 @@ margin-top: 50px;
 width: 768px;
  }
 
+.order-social-img-container {
+    width: 528px;
+    height: 273px;
+    background-color: rgba(20, 20, 20, 0.3);
+    border-radius: 15px;
+  
+  }
+
+.order-social-img {
+object-fit: cover;
+background-position: center;
+
+}
+
 .order-form {
 width: 628px;
 height: 534px;
@@ -100,18 +127,15 @@ height: 490px;
 margin-top: 25px;
 }
 
-.order-social-img {
-width: 528px;
-height: 273px;
-}
     
 .order-social-ul {
 display: flex;
 flex-wrap: nowrap;
 }
-
+ 
 
     /* How it works section */
+
         .section-howitworks {
             display: flex;
             flex-direction: column;
@@ -185,5 +209,6 @@ flex-wrap: nowrap;
             height: 268px;
             gap: 20px;
         }
-    }
+
+}
 /* EOF */

@@ -17,32 +17,57 @@
 
     <!-- Title -->
     <title>FantaFour</title>
-    <!-- Favivon -->
-    <link rel="icon" href="favicon.ico">
-
+    <!-- Favicon -->
+    <link id="dynamic-favicon" rel="icon" href="">
     <!-- Scripts -->
+    <script>
+        function changeFavicon() {
+            // Favicon listesi
+            const favicons = [
+                './images/icons8-lemon-pastel-96.png',
+                './images/icons8-broccoli-cute-color-32.png',
+                './images/icons8-pepper-96.png',
+                './images/icons8-mushroom-96.png',
+                './images/icons8-avocado-96.png'
+            ];
+            // Rastgele index çağır
+            const randomIndex = Math.floor(Math.random() * favicons.length);
+            const favicon = favicons[randomIndex];
+            
+            document.getElementById('dynamic-favicon').setAttribute('href', favicon);
+        }
+        // Sayfa Açılışında fonksiyonu çalıştır
+        window.onload = changeFavicon;
+    </script>
 
 </head>
 
 <body>
     <!-- Header Section -->
-    <header>
+    <header class="header">
         <div class="logo">
             <!-- Logo image here -->
+            <img src="./images/vector1.svg" alt="Logo 1">
+            <img src="./images/vector2.svg" alt="Logo 2">
         </div>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#vegetables">Vegetables</a></li>
                 <li><a href="#reviews">Reviews</a></li>
             </ul>
-            <button class="shop-now-btn">SHOP NOW</button>
+            <div class="header-button">
+            <button class="shop-now-btn"><a href="#order">SHOP NOW</a></button>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="hero">
         <!-- Content for "Hero" section here -->
+         <div class="hero-container">
+            <h1 class="hero-title">Hero Section</h1>
+         </div>
     </section>
 
     <!-- How It Works Section -->
@@ -107,10 +132,24 @@
 
     </section>
 
+
+
     <!-- Discount Section -->
     <section id="discount">
         <!-- Content for "Discount" section here -->
+        <div class="text-box">
+            <div class="text-content">
+                <span class="discount">DISCOUNT UP TO 40%!</span>
+                <span class="taste"> TASTE</span>
+            </div>
+            <div class="tagline">
+                <div class="line2">THE VITAMINS AND KEEP</div>
+                <div class="line3">YOUR HEALTH</div>
+            </div>
+        </div>
     </section>
+
+
 
     <!-- Vegetables Section -->
     <section id="vegetables">
@@ -221,77 +260,117 @@
     </section>
 
     <!-- Order Section -->
-    <section id="order">
+     <section id="order">
         <!-- Content for "Order" section here -->
         <div class="order-box">
             <div class="order-first-section">
+
             <div class="order-title-text">
-                <h2 class="order-title">Fresh <span class="order-title-span">Harvest</span> Box has got you covered</h2>
-                <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone
-                    looking to eat healthier or support local farmers. Order your box today and start enjoying the best
-                    that nature has to offer!</p>
+            <h2 class="order-title">Fresh <span class="order-title-span">Harvest</span> Box has got you covered</h2>
+            <p class="order-text">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
+        </div>
             </div>
 
 
-            <div class="order-form-social-box">
-                <div class="order-form">
-                    <div class="order-form-box">
-                        <p class="order-form-text">Ordering <span class="order-form-span-from-us">from us</span> is
-                            quick and easy! Fill out <span class="order-form-one-span-the-form">the form</span> below
-                            and we will contact you !</p>
+    <div class="order-form-social-box">
+    <div class="order-form">
+      <div class="order-form-box">     
+    <p class="order-form-text">Ordering <span class="order-form-span-from-us">from us</span> is quick and easy! Fill out <span class="order-form-one-span-the-form">the form</span> below and we will contact you !</p>
+            
+    <form>
+        <div class="order-form-input-group">
+            <div class="order-input-group">
+                <input type="text" name="text" class="order-form-input-text" placeholder="" required>
+                <label class="order-form-input-label">Full Name</label>
+            </div>
 
-                        <form>
-                            <div class="order-form-input">
-                                <input type="text" name="text" class="order-form-input-text" placeholder="Full Name">
-                                <input type="email" class="order-form-input-email" placeholder="Email"
-                                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
-                                <p class="text-valid">Success!</p>
-                                <p class="text-invalid">Invalid email, try again</p>
-                                <textarea class="order-form-textarea" placeholder="Comment"></textarea>
-                            </div>
-                            <button type="submit" class="order-form-button">SEND</button>
+            <div class="order-input-group">
+                <input type="email" class="order-form-input-email" placeholder="" required>
+                <label class="order-form-input-label">Email</label>
+                <p class="text-invalid">Invalid email, try again</p>
+            </div>
 
-                        </form>
+            <div class="order-input-group">
+                <textarea class="order-form-textarea" placeholder=""></textarea>
+                <label class="order-form-input-label-text-area">Comment</label>
+            </div>
+        </div>
 
-                    </div>
-                </div>
+        <button type="submit" class="order-form-button">SEND</button>
+       
+    </form>
 
-                <div class="order-social-box">
-                    <div class="order-social">
-                        <img class="order-social-img" src="./images/order-social-box.png" width="427" height="273"
-                            alt="unrecognizable-sportswoman-using-lemon-while-making-fruit-smoothie-home">
-                        <div class="order-social-text">
-                            <p class="order-social-p">Follow us on our social networks:</p>
-                            <ul class="order-social-ul">
-                                <li>
-                                    <p class="order-social-slash"><span><a
-                                                href="https://www.instagram.com/goit.turkiye/" class="order-social-link"
-                                                target="_blank">instagram</a></span>/</p>
-                                </li>
-                                <li>
-                                    <p class="order-social-slash"><span><a
-                                                href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
-                                                class="order-social-link" target="_blank">facebook</a></span>/</p>
-                                </li>
-                                <li>
-                                    <a href="https://m.youtube.com/@GoITTurkey" class="order-social-link"
-                                        target="_blank">youtube</a>
-                                </li>
-                            </ul>
+
                         </div>
                     </div>
 
-                </div>
-
-            </div>
-
+<div class="order-social-box">
+        <div class="order-social">
+            
+            <div class="order-social-img-container"></div>
+                       
+                <img class="order-social-img" src="./images/order-social-box-final.jpg" width="427" height="273" alt="unrecognizable-sportswoman-using-lemon-while-making-fruit-smoothie-home">
+                
         </div>
+             
+
+            <div class="order-social-text">
+                <p class="order-social-p">Follow us on our social networks:</p>
+                <ul class="order-social-ul">
+                    <li>
+                        <p class="order-social-slash"><span><a href="https://www.instagram.com/goit.turkiye/" class="order-social-link" target="_blank">instagram</a></span>/</p>
+                    </li>
+                    <li>
+                        <p class="order-social-slash"><span><a href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/" class="order-social-link" target="_blank">facebook</a></span>/</p>
+                    </li>
+                    <li>
+                        <a href="https://m.youtube.com/@GoITTurkey" class="order-social-link" target="_blank">youtube</a>
+                    </li>
+                </ul>
+                </div>
+        </div>
+    </div>
+    
+    </div>
+
+    </div>
+
+        </div>      
 
     </section>
 
     <!-- Footer Section -->
     <footer>
         <!-- Content for footer here -->
+        <div class="footer-container">
+            <footer class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="194" height="18" class="logo-size">
+                            <use href="./images/icons.svg#icon-logo_tablet_desktop"></use>
+                        </svg>
+                        
+                       
+                        <p>Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the
+                            perfect choice.</p>
+                    </div>
+                    <div class="footer-links">
+                        <ul>
+                            <li><a href="#">how it works</a></li>
+                            <li><a href="#">vegetables</a></li>
+                            <li><a href="#">reviews</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <p><a href="tel:+380684439426">+380 (68) 443-94-26</a></p>
+                        <p>1678 S. Pioneer Road Salt<br>Lake City UT 84104</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p><a href="#">Privacy Policy</a> / <a href="#">Cookie settings</a></p>
+                    <p>© Green Harvest 2023</p>
+                </div>
+
     </footer>
 </body>
 
