@@ -159,10 +159,6 @@ flex-wrap: nowrap;
         .section-image .section-image-container {
             width: 640px;
             height: 640px;
-            border-radius: 30px;
-            background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/howitworks-image.png);
-                background-size: cover;
-                background-position: center;
             
         }
     
