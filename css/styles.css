@@ -178,7 +178,7 @@ body {
   width: 430px;
   height: 559px;
   border-radius: 30px;
-  background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/howitworks-image.jpg);
+  background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/howitworks-image.webp);
   background-size: cover;
   background-position: center;
 }
