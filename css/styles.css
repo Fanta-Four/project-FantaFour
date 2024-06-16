@@ -196,7 +196,6 @@ body {
   width: 450px;
   height: 499px;
   gap: 50px;
-
   display: flex;
   flex-direction: column;
 }
@@ -212,7 +211,6 @@ body {
   color: #FFFFFF;
   width: 450px;
   height: 96px;
-  font-family: "Inter Tight";
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -221,9 +219,7 @@ body {
 }
 
 .text-head-paragraph span {
-  font-family: "Inter Tight";
   font-size: 32px;
-  font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.015em;
   text-align: left;
@@ -235,9 +231,7 @@ body {
   height: 60px;
   gap: 0px;
   margin-top: 15px;
-  font-family: "Inter Tight";
   font-size: 16px;
-  font-weight: 500;
   line-height: 20px;
   text-align: left;
   color: #FBFBFB;
@@ -252,104 +246,6 @@ body {
   margin-bottom: 20px;
 }
 
-.steps {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 15px;
-  width: 450px;
-  height: 268px;
-  gap: 20px;
-}
-
-.step {
-  display: flex;
-  justify-content: space-around;
-  width: 450px;
-  height: 76px;
-  padding: 12px 25px 12px 24px;
-  gap: 20px;
-  border-radius: 15px;
-  background: #FBFBFB;
-
-}
-
-.step-block {
-  width: 52px;
-  height: 52px;
-  gap: 0px;
-  border: 5px solid #7A31454D;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-
-}
-
-.step-number {
-  font-family: "Inter Tight";
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -0.015em;
-  text-align: center;
-  color: #fbfbfb;
-  width: 42px;
-  height: 42px;
-  background: #7A3145;
-  border-radius: 100%
-}
-
-.step span {
-  font-family: "Inter Tight";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  color: #141414;
-
-}
-
-.step-one {
-  width: 325px;
-  height: 40px;
-  font-family: "Inter Tight";
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  margin-top: 5px;
-  color: rgba(20, 20, 20, 0.6);
-
-}
-
-.step-two {
-  width: 323px;
-  height: 20px;
-  font-family: "Inter Tight";
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  margin-top: 15px;
-  color: rgba(20, 20, 20, 0.6);
-}
-
-.step-three {
-  width: 323px;
-  height: 40px;
-  font-family: "Inter Tight";
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  margin-top: 10px;
-  color: rgba(20, 20, 20, 0.6);
-}
 .how-it-order-list{
   display: flex;
   flex-direction: column;
