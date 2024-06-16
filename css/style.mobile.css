@@ -92,8 +92,13 @@ width: 375px;
 .section-image .section-image-container {
     width: 335px;
     height: 450px;
-}
 
+    }
+    .section-image-img  {
+
+    width: 335px;
+    height: 450px;
+    }
 .section-how-it-order {
     width: 375px;
     height: 654px;

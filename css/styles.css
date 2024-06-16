@@ -178,11 +178,16 @@ body {
   width: 430px;
   height: 559px;
   border-radius: 30px;
-  background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../images/howitworks-image.webp);
-  background-size: cover;
+  background-color: rgba(20, 20, 20, 0.3);
   background-position: center;
+  position: absolute;
 }
-
+.section-image-img  {
+  border-radius: 30px;
+  object-fit: cover;
+  width: 430px;
+  height: 559px;
+}
 .section-how-it-order {
   background-color: #576f35;
   width: 650px;
