@@ -150,7 +150,7 @@
         text-align: left;
     }
 
-  .steps {
+  /* .steps {
       max-width: 335px;
       height: 268px;
       gap: 20px;
@@ -158,7 +158,35 @@
   }
   .step{
     width: 335px;
-  }
+  } */
+.how-it-order-list-container {
+    width: 335px;
+    height: 268px;
+    gap: 20px;
+    opacity: 0px;
+}
+.how-it-order-list {
+    width: 284px;
+    height: 52px;
+    gap: 24px;
+    opacity: 0px;
+
+}
+.how-it-order-list li{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.how-it-order-list li span{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        text-align: left;
+}
+
 
 
 /* order-form */
