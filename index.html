@@ -2,33 +2,63 @@
 <html lang="en">
 
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eda Gunaydin, Emre Kanca, Ersin Giden, Mete Civelek, Oguzcan Dinckal, 
+        Onur Akarsu, Pinar Altay, Razan Almasri"> 
+    <!-- Authors in alphabetic order: Eda Gunaydin, Emre Kanca, Ersin Giden, Mete Civelek, Oguzcan Dinckal, 
+        Onur Akarsu, Pinar Altay, Razan Almasri  -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- latest rendering engine in IE -->
+    <meta name="description" content="GoIT | Full Stack Developer Course"> <!-- Search Engine Optimization -->
+    <meta name="keywords" content="HTML, CSS, JavaScript"> <!-- Search Engine Optimization -->
+    <!-- End of Meta -->
 
-    <link rel="stylesheet"
+    <link  rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" 
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <noscript>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    </noscript>
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/hero.css">
+    <link rel="stylesheet" href="./src/css/how-it-works.css">
+    <link rel="stylesheet" href="./src/css/advertisement.css">
+    <link rel="stylesheet" href="./src/css/vegetables.css">
+    <link rel="stylesheet" href="./src/css/reviews.css">
+    <link rel="stylesheet" href="./src/css/order-form.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./src/css/order-form.tablet.css">
+    <link rel="stylesheet" href="./src/css/order-form.mobile.css">
     <link rel="stylesheet" href="./css/style.desktop.css">
     <link rel="stylesheet" href="./css/style.mobile.css">
     <link rel="stylesheet" href="./css/style.tablet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- Title -->
     <title>FantaFour</title>
     <!-- Favicon -->
     <link id="dynamic-favicon" rel="icon" href="">
     <!-- Scripts -->
-    <script>
+    <script defer>
         function changeFavicon() {
             // Favicon listesi
             const favicons = [
-                './images/icons8-lemon-pastel-96.png',
-                './images/icons8-broccoli-cute-color-32.png',
-                './images/icons8-pepper-96.png',
-                './images/icons8-mushroom-96.png',
-                './images/icons8-avocado-96.png'
+                './images/favicons/icons8-lemon-pastel-96.png',
+                './images/favicons/icons8-broccoli-cute-color-32.png',
+                './images/favicons/icons8-mushroom-96.png',
+                './images/favicons/icons8-avocado-96.png',
+                './images/favicons/icons8-tomato-96.png',
+                './images/favicons/biber.png',
+                './images/favicons/havuc.png',
+                './images/favicons/karpuz.png',
+                './images/favicons/muz.png',
+                './images/favicons/marul.png'
             ];
             // Rastgele index çağır
             const randomIndex = Math.floor(Math.random() * favicons.length);
@@ -74,10 +104,8 @@
     <section id="how-it-works" class="section-howitworks">
         <!-- Content for "How It Works" section here -->
         <div class="section-image">
-            <div class="section-image-container">
-
-            </div>
-            <!--<img src="./images/howitworks-image.png" alt="">-->
+            <div class="section-image-container"></div>
+                <img class="section-image-img" src="./images/howitworks-image.webp" alt="happy-athletic-woman-cutting-fruit-while-preparing-healthy-meal-kitchen">
         </div>
         <div class="section-how-it-order">
             <div class="how-it-order-text">
@@ -88,43 +116,6 @@
                         taste
                         of fresh fruit without ever leaving your home.</P>
                 </div>
-
-                <!-- <div class="steps">
-                    <div class="step">
-                        <div class="step-block">
-                            <div class="step-number">
-                                1
-                            </div>
-
-                        </div>
-                        <div class="step-one">Just choose <span>the vegetable</span> you want to order by clicking on
-                            the
-                            checkboxes <span>next
-                                to it</span>.
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-block">
-                            <div class="step-number">
-                                2
-                            </div>
-
-                        </div>
-
-                        <div class="step-two">Click on <span>the basket</span> and fill out the form.</div>
-                    </div>
-                    <div class="step">
-                        <div class="step-block">
-                            <div class="step-number">
-                                3
-                            </div>
-
-                        </div>
-
-                        <div class="step-three">Sit back and relax! Your <span>fresh vegetables</span> basket will be
-                            delivered.</div>
-                    </div>
-                </div> -->
                 <div class="how-it-order-list-container">
                     <ol class="how-it-order-list">
                         <li>
@@ -184,38 +175,38 @@
                             <p class="vegetable-name">eggplant</p>
                             <p class="vegetable-price">60 USD/KG</p>
                         </div>
-                        <img src="./images/eggplant.png" alt="eggplant" width="282" height="243">
+                        <img src="./images/eggplant.webp" alt="eggplant" width="282" height="243">
                     </li>
                     <li class="vegetables-cards-list-item">
                         <div class="vegetables-cards-p">
                             <p class="vegetable-name">leek</p>
                             <p class="vegetable-price">50 USD/KG</p>
                         </div>
-                        <img src="./images/leek.png" alt="eggplant">
+                        <img src="./images/leek.webp" alt="eggplant">
                     </li>
                     <li class="vegetables-cards-list-item">
                         <div class="vegetables-cards-p">
                             <p class="vegetable-name">mushrooms</p>
                             <p class="vegetable-price">40 USD/KG</p>
-                        </div><img src="./images/mushroom.png" alt="eggplant">
+                        </div><img src="./images/mushroom.webp" alt="eggplant">
                     </li>
                     <li class="vegetables-cards-list-item">
                         <div class="vegetables-cards-p">
                             <p class="vegetable-name">corn</p>
                             <p class="vegetable-price">60 USD/KG</p>
-                        </div><img src="./images/corn.png" alt="eggplant">
+                        </div><img src="./images/corn.webp" alt="eggplant">
                     </li>
                     <li class="vegetables-cards-list-item">
                         <div class="vegetables-cards-p">
                             <p class="vegetable-name">sweet potatoes</p>
                             <p class="vegetable-price">50 USD/KG</p>
-                        </div><img src="./images/sweet_potato.png" alt="eggplant">
+                        </div><img src="./images/sweet_potato.webp" alt="eggplant">
                     </li>
                     <li class="vegetables-cards-list-item">
                         <div class="vegetables-cards-p">
                             <p class="vegetable-name">carrot</p>
                             <p class="vegetable-price">40 USD/KG</p>
-                        </div><img src="./images/carrot.png" alt="eggplant">
+                        </div><img src="./images/carrot.webp" alt="eggplant">
                     </li>
                 </ul>
             </div>
@@ -243,7 +234,7 @@
                     <li class="review-card-item">
                         <div class="review-card">
                             <!-- Customer image here -->
-                            <img class="review-card-image" src="images/customer-1.png" alt="Customer image">
+                            <img class="review-card-image" src="images/customer-1.webp" alt="Customer image">
                             <h3 class="review-card-customer-name">John Wax</h3>
                             <p class="review-card-review">These vegetables are my secret to delicious and healthy meals.
                                 The quality is always at the highest level, the aroma and taste are enchanting. I advise
@@ -253,7 +244,7 @@
                     <li class="review-card-item">
                         <div class="review-card">
                             <!-- Customer image here -->
-                            <img class="review-card-image" src="images/customer-2.png" alt="Customer image">
+                            <img class="review-card-image" src="images/customer-2.webp" alt="Customer image">
                             <h3 class="review-card-customer-name">Victoria Romashenko</h3>
                             <p class="review-card-review">I love how fast and fresh the vegetables are delivered. Salads
                                 always turn out so appetizing, and soups are real masterpieces. The quality is
@@ -263,7 +254,7 @@
                     <li class="review-card-item">
                         <div class="review-card">
                             <!-- Customer image here -->
-                            <img class="review-card-image" src="images/customer-3.png" alt="Customer image">
+                            <img class="review-card-image" src="images/customer-3.webp" alt="Customer image">
                             <h3 class="review-card-customer-name">Ihor Trachuk</h3>
                             <p class="review-card-review">Recently tried my fresh tomatoes and peppers - amazing! The
                                 authenticity of the taste, as if from the garden directly to my table. It is now my main
@@ -331,7 +322,7 @@
 
                         <div class="order-social-img-container"></div>
 
-                        <img class="order-social-img" src="./images/order-social-box-final.jpg" width="427" height="273"
+                        <img class="order-social-img" src="./images/order-social-box-final.webp" width="427" height="273"
                             alt="unrecognizable-sportswoman-using-lemon-while-making-fruit-smoothie-home">
 
                     </div>
