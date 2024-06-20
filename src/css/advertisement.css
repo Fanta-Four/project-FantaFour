@@ -1,0 +1,60 @@
+/* Discount */
+/* Author: Pinar */
+
+#discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 100px;
+    height: 440px;
+    background: white;
+  }
+  
+  .text-box {
+    width: 1080px;
+    height: 240px;
+    margin: 100px;
+    position: relative;
+  }
+  
+  .text-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .discount {
+    font: 600 76px / 1.05263 "Inter Tight", sans-serif;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    border-radius: 12px;
+    height: 86px;
+    background: #576f35;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    white-space: nowrap;
+    /* Tek satırda görüntülemek için */
+  }
+  
+  .taste {
+    font: 600 76px / 1.05263 "Inter Tight", sans-serif;
+    color: #141414;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .tagline {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .line2,
+  .line3 {
+    font: 600 76px / 1.05263 "Inter Tight", sans-serif;
+    color: #141414;
+  }

@@ -1,0 +1,111 @@
+/* Header */
+/* Author: Pinar */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #576F35;
+    height: 52px;
+    margin-top: 30px;
+    padding: 0px 100px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 194px;
+    height: 18px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    height: 52px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+    position: relative;
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    height: 44px;
+    color: #fbfbfb;
+    gap: 8px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fbfbfb;
+    font: 500 16px / 1.25 "Inter Tight", sans-serif;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+  
+  /*
+  .navbar ul li a:hover {
+  }
+  */
+  
+  .header-button {
+    margin-left: 20px;
+  }
+  
+  .shop-now-btn {
+    padding: 16px 32px;
+    background-color: #7a3145;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* width: 157px;*/
+    height: 52px;
+    font: 600 18px / 1.11111 "Inter Tight", sans-serif;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+  }
+  .shop-now-btn a {
+    color: #fbfbfb;
+    text-decoration: none;
+  }
+  .shop-now-btn:hover {
+    background-color: #622133;
+    /* Hover durumunda buton rengi */
+  }
+  
+  
+  /* Responsive tasarım için */ /*
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 20px;
+    }
+  
+    .navbar {
+      margin-top: 10px;
+    }
+  
+    .header-button {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  */

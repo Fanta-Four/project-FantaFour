@@ -1,0 +1,65 @@
+/* Veggies */
+/* Author: Mete */
+.vegetables-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg2-color);
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+.vegetables-block {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    gap: 25px;
+}
+.vegetables-h {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    font-size: 4em;
+    line-height: 4rem;
+    max-width: 508px;
+}
+.vegetables-h-span {
+    opacity: 0.3;
+}
+.vegetables-p {
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #fbfbfb;
+    max-width: 626px;
+}
+.vegetables-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 21px;
+    max-width: 1080px;
+    transition: all 0.3s ease-in-out;
+}
+.vegetables-cards-list-item {
+    background-color: #fbfbfb;
+    border-radius: 40px;
+    padding: 32px;
+    transition: all 1s ease-in-out;
+}
+
+.vegetables-cards-p {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.vegetable-name {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #7a3145;
+}
+.vegetable-price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #141414;
+}
