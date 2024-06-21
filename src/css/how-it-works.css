@@ -101,28 +101,33 @@
 display: flex;
 flex-direction: column;
 margin-top: 15px;
-width: 401px;
-height: 52px;
 gap: 24px;
 opacity: 0px;
 list-style: none;
-
 }
 .how-it-order-list li{
+width: 450px;
+height: 76px;
 background-color: #FBFBFB;
 color: #14141499;
 padding: 15px 20px 15px 70px;
-/* Daha fazla iç boşluk sağlamak için padding ayarı */
 margin-bottom: 15px;
 border-radius: 5px;
 display: flex;
 flex-wrap:wrap;
-justify-content:space-between;
 position: relative;
 counter-increment: step-counter;
 
 }
-.how-it-order-list li span {
+.how-it-order-list li p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    align-items: center;
+}
+.how-it-order-list li p span {
 font-size: 16px;
 font-weight: 700;
 line-height: 20px;
