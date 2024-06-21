@@ -6,7 +6,9 @@
     body {
       padding: 0 10px;
     }
-
+    .hero-content-capsule {
+        flex-direction: column;
+    }
     .hero-text-content {
         text-align: left;
         padding: 10px 0 50px 0;
