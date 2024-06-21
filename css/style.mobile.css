@@ -6,7 +6,9 @@
     body {
       padding: 0 10px;
     }
-
+    .hero-content-capsule {
+        flex-direction: column;
+    }
     .hero-text-content {
         text-align: left;
         padding: 10px 0 50px 0;
@@ -162,26 +164,34 @@ line-height: 18px;
 
 
 .how-it-order-list-container {
-    width: 335px;
+    
+    width: 100%;
     height: 268px;
     gap: 20px;
     opacity: 0px;
 }
 .how-it-order-list {
-    width: 284px;
+    max-width: 335px;
+    width: 100%;
     height: 52px;
     gap: 24px;
     opacity: 0px;
-
+    
 }
 .how-it-order-list li{
+    width: 100%;
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
     letter-spacing: -0.02em;
     text-align: left;
+    
 }
-.how-it-order-list li span{
+.how-it-order-list li p{
+font-size: 12px;
+}
+
+.how-it-order-list li p span{
         font-size: 12px;
         font-weight: 700;
         line-height: 14px;
