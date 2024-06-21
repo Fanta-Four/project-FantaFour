@@ -212,40 +212,40 @@
 
 
     /*FOOTER*/
-   
-        
+
     .footer-content {
-        display: block;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 20px;
-
-    }
-    .link-contact {
-        flex-direction: column;
+        width: 768px;
+        margin: 0;
+        padding: 0;
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 20px;
         flex-direction: column;
+        align-items: center;
+    }
+   
+    .footer-container {
+        display: flex;
+        justify-content: center;
     }
 
-    .footer-links {
+   .link-contact {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 20px;
-        
-    }
+        flex-direction: column;
+        gap: 64px;
+   }
 
-    .footer-contact {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 20px;
-        
-        
+   .footer-section {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    justify-content: center;
+
+   }
+
+   .footer-bottom {  
+        padding-top: 50px;
     }
+   
+ 
 }
 /* EOF */
