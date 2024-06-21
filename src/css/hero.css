@@ -5,11 +5,19 @@
 /* buradan sonrası daha sonra silinecektir */
 .hero-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     gap: 20px;
-    padding: 80px 20px 80px 20px;
-    background-color: var(--primary-color);
+    padding: 80px 20px;
+    background-color: var(--bg1-color);
     color: var(--white-color);
+  }
+  .hero-content-capsule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    width: 100%;
+
   }

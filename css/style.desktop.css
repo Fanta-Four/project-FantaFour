@@ -2,7 +2,10 @@
     /* Add your CSS rules here */
 
     /* Hero Section */
-    
+    .hero-container {
+        padding-top: 0;
+        padding-right: 0;
+    }
     .hero-text-content {
         padding: 0 0 50px 0;
         color: white;
@@ -38,7 +41,7 @@
         border-radius: 10px;
     }
 
-    
+
     /* Review section */
     .review-container {
         justify-content: center;
