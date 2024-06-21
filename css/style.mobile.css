@@ -1,47 +1,78 @@
-/* Mobile styles for max 768px */
-@media screen and (min-width: 375px) and (max-width: 767px) {
-    /* Your mobile styles go here */
+/* Tablet styles for max 1280px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    /* Add your table styles here */
+
+   
+    .hero-text-content {
+        padding: 0 0 50px 0;
+        color: white;
+        text-align: left;
+    }
+    
+    .hero-text-content h1 {
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 76px;
+        margin-bottom: 128px;
+        letter-spacing: -1.5%;
 
 
-    /* Vegetables */
+    
+    .hero-text-content p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+    
+    .hero-image-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .hero-image-content img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+      
+     /* Vegetables */
     #vegetables {
         font-size: 14px;
-    }
+    }   
     .vegetables-container {
         display: flex;
         flex-direction: column;
         background-color: var(--bg2-color);
-        padding: 80px 20px;
+        padding: 100px 32px;
     }
     .vegetables-cards-list {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         gap: 20px;
-        max-width: 334px;
-    }
+        max-width: 704px;
+        transition: all 0.3s ease-in-out;
+}
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
         border-radius: 40px;
-        padding: 32px 26px;
-    }
-    .vegetables-h {
-        font-size: 48px;
-        line-height: 50px;
-    }
-    .vegetables-p {
-        font-size: 14px;
-        line-height: 18px;
+        padding: 32px 30px;
+        transition: all 0.3s ease-in-out;
     }
 
-    
-    
+
+
     /* Review section */
     .review-container {
         align-items: flex-start;
         gap: 40px;
         padding: 80px 20px;
     }
+
     .review-title {
         max-width: 335px;
     }
@@ -51,8 +82,8 @@
     }
     .review-cards {
         gap: 25px;
-        overflow: hidden;
     }
+
     .review-section-title {
         font-size: 48px;
         line-height: 50px;
@@ -290,7 +321,7 @@ font-size: 14px;
     height: 46px;   
     gap: 15px;
 
-    
+
 }
 
 .order-form-textarea {
