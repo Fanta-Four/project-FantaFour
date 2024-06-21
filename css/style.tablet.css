@@ -1,4 +1,5 @@
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
     .container {
         flex-direction: row;
     }
@@ -19,7 +20,7 @@
     .hero-image-content img {
         height: auto;
     }
-}
+
 
     /* Add your table styles here */
 

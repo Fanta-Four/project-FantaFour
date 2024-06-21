@@ -1,42 +1,35 @@
-/* Tablet styles for max 1280px */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-    /* Add your table styles here */
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+    /* Add your mobile styles here */
 
    
+    body {
+      padding: 0 10px;
+    }
+
     .hero-text-content {
-        padding: 0 0 50px 0;
-        color: white;
         text-align: left;
+        padding: 10px 0 50px 0;
     }
-    
+
     .hero-text-content h1 {
-        font-size: 76px;
-        font-weight: 600;
-        line-height: 76px;
-        margin-bottom: 128px;
-        letter-spacing: -1.5%;
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 64px;
+    }
 
-
-    
     .hero-text-content p {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 6px;
+        font-size: 14px;
+        line-height: 18px;
     }
-    
-    .hero-image-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto;
+
+    .container {
+        width: 100%;
     }
-    
+
     .hero-image-content img {
         width: 100%;
         height: auto;
-        object-fit: cover;
-        border-radius: 10px;
     }
       
      /* Vegetables */
