@@ -1,12 +1,37 @@
-/* Tablet styles for max 1280px */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .container {
+        flex-direction: row;
+    }
+
+    .hero-container {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .hero-text-content {
+        padding: 20px;
+    }
+
+    .hero-image-content {
+        padding: 20px;
+    }
+
+    .hero-image-content img {
+        height: auto;
+    }
+
+
     /* Add your table styles here */
+
+    /* Vegetables section */
     .vegetables-container {
         display: flex;
         flex-direction: column;
         background-color: var(--bg2-color);
         padding: 100px 32px;
     }
+
     .vegetables-cards-list {
         display: flex;
         flex-wrap: wrap;
@@ -14,7 +39,8 @@
         gap: 20px;
         max-width: 704px;
         transition: all 0.3s ease-in-out;
-}
+    }
+
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
         border-radius: 40px;
@@ -22,23 +48,31 @@
         transition: all 0.3s ease-in-out;
     }
 
-
-
-    /* Review section */
     .review-container {
         align-items: flex-start;
-        margin: 0 25px;
+        padding: 100px 32px;
+        gap: 50px;
+        transition: all 1 ease-in-out;
     }
+    .review-title {
+        max-width: 553px;
+    }
+    .review-cards-container {
+        width: 100%;
+        justify-content: center;
+    }
+
     .review-cards {
-        gap: 25px;
+        gap: 18px;
+        transition: all 0.3s ease-in-out;
     }
-    .review-description {
-        margin-bottom: 50px;
+
+    .review-card-item:nth-last-child(1) {
+        display: none;
     }
 
  /* order-form */
-
- .order-box {
+/* .order-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,20 +123,6 @@ margin-top: 50px;
 width: 768px;
  }
 
- .order-social-img-container {
-    width: 528px;
-    height: 273px;
-    background-color: rgba(20, 20, 20, 0.3);
-    border-radius: 15px;
-  
-  }
-
-.order-social-img {
-object-fit: cover;
-background-position: center;
-
-}
-
 .order-form {
 width: 628px;
 height: 534px;
@@ -119,76 +139,87 @@ margin-top: 25px;
 .order-social-ul {
 display: flex;
 flex-wrap: nowrap;
+} */
+
+
+/* How it works section */
+
+.section-howitworks {
+    flex-direction: column;
+    height: 1539px;
+    top: 1024px;
+
+
 }
 
+.section-image {
+    width: 768px;
+    height: 840px;
+    padding: 100px 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    /* How it works section */
-        .section-howitworks {
-            display: flex;
-            flex-direction: column;
-    
-            height: 1539px;
-            top: 1024px;
-    
-    
-        }
-    
-        .section-image {
-            width: 768px;
-            height: 840px;
-            padding: 100px 64px 100px 64px;
-            gap: 10px;
-    
-        }
-    
-        .section-image img {
-    
-            border-radius: 30px;
-    
-        }
-    
-        .section-how-it-order {
-            width: 768px;
-            height: 699px;
-            padding: 100px 159px 100px 159px;
-            gap: 10px;
-    
-        }
-    
-        .how-it-order-text {
-            width: 450px;
-            height: 499px;
-            gap: 50px;
-    
-    
-        }
-    
-        .text-head-paragraph {
-            width: 450px;
-            height: 181px;
-            gap: 25px;
-            margin-bottom: 20px;
-        }
-    
-        .text-head-paragraph h1 {
-            width: 450px;
-            height: 96px;
-            gap: 0px;
-    
-    
-        }
-    
-        .text-header-paragraph p {
-            width: 450px;
-            height: 60px;
-            gap: 25px;
-    
-        }
-    
-        .steps {
+}
+.section-image .section-image-container {
+    width: 640px;
+    height: 640px;
+
+  }
+  .section-image-img  {
+    width: 640px;
+    height: 640px;
+  }
+
+.section-how-it-order {
+    width: 768px;
+    height: 699px;
+    padding: 100px 159px;
+
+}
+
+.how-it-order-text {
+    width: 450px;
+    height: 499px;
+
+
+}
+
+.text-head-paragraph {
+    width: 450px;
+    height: 181px;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.text-head-paragraph h1 {
+    width: 450px;
+    height: 96px;
+    gap: 0px;
+
+
+}
+
+.text-header-paragraph p {
+    width: 450px;
+    height: 60px;
+    gap: 25px;
+
+}
+         .how-it-order-list-container{
             width: 450px;
             height: 268px;
             gap: 20px;
-        }
-    }
+            opacity: 0px;
+         }
+         .how-it-order-list{
+            width: 401px;
+            height: 52px;
+            gap: 24px;
+            opacity: 0px;
+         }
+         
+
+
+}
 /* EOF */

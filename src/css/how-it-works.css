@@ -1,0 +1,158 @@
+/* How It Works */
+/* Author: Ersin */
+.section-howitworks {
+    display: flex;
+    flex-direction: row;
+    height: 759px;
+  }
+  
+  .section-image {
+    background-color: #7A3145;
+    width: 630px;
+    padding: 100px;
+    gap: 10px;
+    opacity: 0px;
+  }
+  
+  .section-image .section-image-container {
+    width: 430px;
+    height: 559px;
+    border-radius: 30px;
+    background-color: rgba(20, 20, 20, 0.3);
+    background-position: center;
+    position: absolute;
+  }
+  .section-image-img  {
+    border-radius: 30px;
+    object-fit: cover;
+    width: 430px;
+    height: 559px;
+  }
+  .section-how-it-order {
+    background-color: #576f35;
+    width: 650px;
+    top: 800px;
+    left: 630px;
+    padding: 90px;
+    gap: 10px;
+  }
+  
+  .how-it-order-text {
+    width: 450px;
+    height: 499px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-head-paragraph h1 p {
+    width: 450px;
+    height: 181px;
+    gap: 25px;
+  
+  }
+  
+  .text-head-paragraph h1 {
+    color: #FFFFFF;
+    width: 450px;
+    height: 96px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  
+  .text-head-paragraph span {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #FBFBFB4D;
+  }
+  
+  .text-head-paragraph p {
+    width: 450px;
+    height: 60px;
+    gap: 0px;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #FBFBFB;
+  }
+  
+  .text-head-paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 181px;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  
+.how-it-order-list-container{
+  width: 450px;
+  height: 268px;
+  gap: 20px;
+  opacity: 0px;
+}
+.how-it-order-list{
+display: flex;
+flex-direction: column;
+margin-top: 15px;
+gap: 24px;
+opacity: 0px;
+list-style: none;
+}
+.how-it-order-list li{
+width: 450px;
+height: 76px;
+background-color: #FBFBFB;
+color: #14141499;
+padding: 15px 20px 15px 70px;
+margin-bottom: 15px;
+border-radius: 5px;
+display: flex;
+flex-wrap:wrap;
+position: relative;
+counter-increment: step-counter;
+
+}
+.how-it-order-list li p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    align-items: center;
+}
+.how-it-order-list li p span {
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #141414;
+}
+.how-it-order-list li::before {
+content: counter(step-counter);
+  background-color: #7A3145;
+  color: #fbfbfb;
+  width: 42px;
+  /* Boyut artırıldı */
+  height: 42px;
+  /* Boyut artırıldı */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid #C0A3A5;
+  /* Border rengi ve kalınlığı ayarlandı */
+  margin-right: 10px;
+  font-size: 16px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
