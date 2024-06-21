@@ -1,10 +1,44 @@
 @media screen and (min-width: 1280px) {
     /* Add your CSS rules here */
 
+    /* Hero Section */
+    .hero-container {
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .hero-text-content {
+        padding: 0 0 50px 0;
+        color: white;
+        text-align: left;
+    }
 
+    .hero-text-content h1 {
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 76px;
+        margin-bottom: 128px;
+        letter-spacing: -1.5%;
+    }
 
+    .hero-text-content p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
 
+    .hero-image-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
 
+    .hero-image-content img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 
 
     /* Review section */

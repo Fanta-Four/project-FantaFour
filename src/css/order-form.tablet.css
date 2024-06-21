@@ -1,0 +1,92 @@
+/* Tablet styles for max 1280px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    /* Add your table styles here */
+    
+/* Author: Eda */
+ /* order-form */
+ .order-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1576px;
+    padding-top: 100px;
+
+ }
+
+.order-form-box {
+    width: 428px;
+    margin: auto;
+
+}
+
+.order-first-section {
+    height: 277px;
+    width: 768px;
+    padding-left: 32px;
+    
+}
+
+.order-title-text {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    margin: 0px;
+    padding: 0;
+    height: 277px;
+   
+}
+
+.order-title {
+    height: 192px;
+    width: 640px;
+}
+    
+.order-text {
+    width: 100%;
+    height: 60px;
+}
+
+.order-form-social-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+width: 768px;
+ }
+
+.order-social-img-container {
+    width: 528px;
+    height: 273px;
+    background-color: rgba(20, 20, 20, 0.3);
+    border-radius: 15px;
+  
+  }
+
+.order-social-img {
+object-fit: cover;
+background-position: center;
+
+}
+
+.order-form {
+width: 628px;
+height: 534px;
+margin: auto;
+}
+
+.order-social-box {
+width: 628px;
+height: 490px;
+margin-top: 25px;
+}
+
+    
+.order-social-ul {
+display: flex;
+flex-wrap: nowrap;
+}
+
+
+/* EOF */
+}
