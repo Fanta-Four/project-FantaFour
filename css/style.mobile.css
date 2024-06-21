@@ -103,15 +103,11 @@ width: 375px;
 
 }
 .how-it-order-text{
-width: 375px;
+width: 335px;
 
 }
 
-  /* .steps {
-      max-width: 335px;
-      height: 268px;
-      gap: 20px;
-
+ 
 .text-head-paragraph {
     width: 335px;
     height: 186px;
@@ -140,7 +136,7 @@ font-size: 14px;
 line-height: 18px;
 }
 
-  } */
+
 .how-it-order-list-container {
     width: 335px;
     height: 268px;
