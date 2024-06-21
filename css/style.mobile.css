@@ -399,16 +399,8 @@ font-size: 12px;
 } */
 
     /*FOOTER*/
-        footer-logo {
-            position: absolute;
-    
-        }
-    
-        .footer-container {
-            position: absolute;
-    
-        }
-    
+          
+       
     
         .link-contact {
             display: flex;
