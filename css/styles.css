@@ -355,31 +355,35 @@ body {
     width: 450px;
     height: 268px;
     gap: 20px;
-    opacity: 0px;
 }
 .how-it-order-list{
+  
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   margin-top: 15px;
-  width: 401px;
-  height: 52px;
-  gap: 24px;
-  opacity: 0px;
   list-style: none;
+
   
 }
 .how-it-order-list li{
-  background-color: #fff;
-  color: #333;
-  padding: 15px 20px 15px 70px;
+  width: 450px;
+  height: 76px;
+  background: rgba(251, 251, 251, 1);
+  color: rgba(20, 20, 20, 0.6);
+  padding: 12px 10px 12px 70px;
   /* Daha fazla iç boşluk sağlamak için padding ayarı */
   margin-bottom: 15px;
   border-radius: 5px;
   display: flex;
-  flex-wrap:wrap;
-  justify-content:space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: relative;
   counter-increment: step-counter;
+
+  
 
 }
 .how-it-order-list li span {
@@ -387,7 +391,6 @@ body {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
-  text-align: left;
   color: #141414;
 }
 .how-it-order-list li::before {
