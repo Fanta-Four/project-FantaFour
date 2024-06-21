@@ -1,0 +1,15 @@
+/* Hero Section */
+/* Author: Razan */
+
+/* Bu dosya geçiçi olarak yazılmıştır. */
+/* buradan sonrası daha sonra silinecektir */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 20px 80px 20px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }

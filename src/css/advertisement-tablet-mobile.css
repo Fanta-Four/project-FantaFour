@@ -1,0 +1,70 @@
+/* Tablet styles for max 1280px */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    /* Add your table styles here */
+
+    .text-box {
+            width: 736px;
+            height: 288px;
+            margin: 50px;
+        }
+    
+        .text-content,
+        .tagline {
+            display: none;
+        }
+    
+        .tablet-content {
+            display: block;
+        }
+    
+        .tablet-line1,
+        .tablet-line2,
+        .tablet-line3,
+        .tablet-line4 {
+            font: 600 56px / 1.05263 "Inter Tight", sans-serif;
+            color: #141414;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    
+        .tablet-line4 {
+            margin-bottom: 0;
+        }
+
+}
+
+
+/* Mobile styles for max 768px */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    /* Your mobile styles go here */
+
+    .text-box {
+            width: 355px;
+            height: 309px;
+            margin: 20px;
+        }
+    
+        .tablet-content {
+            display: none;
+        }
+    
+        .mobile-content {
+            display: block;
+        }
+    
+        .mobile-line1,
+        .mobile-line2,
+        .mobile-line3,
+        .mobile-line4,
+        .mobile-line5,
+        .mobile-line6 {
+            font: 600 36px / 1.05263 "Inter Tight", sans-serif;
+            color: #141414;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    
+        .mobile-line6 {
+            margin-bottom: 0;
+        }
+}

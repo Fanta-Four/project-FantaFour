@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #141414;
+    --secondary-color: #576f35;
+  
+    --brown-color: #bea69e;
+  
+    --bg1-color: #576f35;
+    --bg2-color: #7a3145;
+    --white-color: #fbfbfb;
+    --button-bg-color: var(--bg2-color);
+    --button-hover-color: #622133;
+    --button-hover-color2: var(--white-color);
+    --button-text-color: #212121;
+    --text-color: var(--white-color);
+    --text-hover-color: var(--brown-color);
+  }
+  
+  /* General styles */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General Usage */
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  body {
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    counter-reset: section;
+      /* Set a counter named 'section', and its initial value is 0. */
+  }
