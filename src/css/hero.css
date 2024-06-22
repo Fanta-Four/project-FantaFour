@@ -3,13 +3,12 @@
 
 /* Bu dosya geçiçi olarak yazılmıştır. */
 /* buradan sonrası daha sonra silinecektir */
-.hero-container {
+#hero .hero-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     gap: 20px;
-    padding: 80px 20px;
     background-color: var(--bg1-color);
     color: var(--white-color);
   }
@@ -19,5 +18,13 @@
     justify-content: center;
     max-width: 1280px;
     width: 100%;
-
+  }
+  .hero-content-capsule .hero-text-content {
+    padding-top: 150px;
+    padding-left: 90px;
+    padding-right: 100px;
+    width: 50%;
+  }
+  .hero-image-content {
+    width: 50%;
   }

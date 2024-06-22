@@ -7,7 +7,7 @@
         padding-right: 0;
     }
     .hero-text-content {
-        padding: 0 0 50px 0;
+        padding: 0 0 0 0;
         color: white;
         text-align: left;
     }
@@ -32,10 +32,11 @@
         align-items: center;
         justify-content: center;
         height: auto;
+        width: 50%;
     }
 
     .hero-image-content img {
-        width: 100%;
+        width: 105%;
         height: auto;
         object-fit: cover;
     }
