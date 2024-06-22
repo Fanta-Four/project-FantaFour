@@ -33,7 +33,7 @@
             height: 100%;
         }
     
-        .logo {
+        .header-logo {
             width: 194px;
             height: 18px;
         }
@@ -87,7 +87,7 @@
         height: 50px;
     }
 
-    .logo {
+    .header-logo {
         display: flex;
         align-items: center;
         justify-content: flex-start;
