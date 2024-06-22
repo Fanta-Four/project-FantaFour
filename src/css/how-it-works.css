@@ -4,21 +4,21 @@
 .section-howitworks {
   display: flex;
   flex-direction: row;
-  height: 759px;
+  /*height: 759px;*/
   counter-reset: step-counter;
 }
 
 .section-image {
   background-color: #7A3145;
-  width: 630px;
-  padding: 100px;
+  /*width: 630px;
+  padding: 100px;*/
   gap: 10px;
   opacity: 0px;
 }
 
 .section-image .section-image-container {
-  width: 430px;
-  height: 559px;
+  /*width: 430px;
+  height: 559px;*/
   border-radius: 30px;
   background-color: rgba(20, 20, 20, 0.3);
   background-position: center;
@@ -28,38 +28,38 @@
 .section-image-img {
   border-radius: 30px;
   object-fit: cover;
-  width: 430px;
-  height: 559px;
+  /*width: 430px;
+  height: 559px;*/
 }
 
 .section-how-it-order {
   background-color: #576f35;
-  width: 650px;
+  /*width: 650px;
   top: 800px;
-  left: 630px;
+  left: 630px;*/
   padding: 90px;
   gap: 10px;
 }
 
 .how-it-order-text {
-  width: 450px;
-  height: 499px;
+  /*width: 450px;
+  height: 499px;*/
   gap: 50px;
   display: flex;
   flex-direction: column;
 }
 
 .text-head-paragraph h1 p {
-  width: 450px;
-  height: 181px;
+  /*width: 450px;
+  height: 181px;*/
   gap: 25px;
 
 }
 
 .text-head-paragraph h1 {
   color: #FFFFFF;
-  width: 450px;
-  height: 96px;
+  /*width: 450px;
+  height: 96px;*/
   font-size: 32px;
   font-weight: 600;
   line-height: 32px;
@@ -76,8 +76,8 @@
 }
 
 .text-head-paragraph p {
-  width: 450px;
-  height: 60px;
+  /*width: 450px;
+  height: 60px;*/
   gap: 0px;
   margin-top: 15px;
   font-size: 16px;
@@ -89,15 +89,15 @@
 .text-head-paragraph {
   display: flex;
   flex-direction: column;
-  width: 450px;
-  height: 181px;
+  /*width: 450px;
+  height: 181px;*/
   gap: 25px;
   margin-bottom: 20px;
 }
 
 .how-it-order-list-container {
-  width: 450px;
-  height: 268px;
+  /*width: 450px;
+  height: 268px;*/
   gap: 20px;
   opacity: 0px;
 }
@@ -200,7 +200,7 @@
     display: flex;
     flex-direction: row;
   }
-  .section-image {
+    .section-howitworks .section-image {
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -208,9 +208,12 @@
     padding: 100px 0px 0px 0px;
     gap: 10px;
   }
-  .section-how-it-order{
+
+  .section-howitworks .section-how-it-order{
       display: flex;
       flex-direction: row;
+      width: 50%;
+      height: 50%;
       padding: 100px 100px 100px 100px;
       gap: 10px;
   }
