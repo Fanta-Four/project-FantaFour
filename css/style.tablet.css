@@ -56,7 +56,6 @@
         align-items: flex-start;
         padding: 100px 32px;
         gap: 50px;
-        transition: all 1 ease-in-out;
     }
 
     .review-title {
