@@ -370,27 +370,26 @@
                         <form>
                             <div class="order-form-input-group">
                                 <div class="order-input-group">
-                                    <input type="text" name="text" class="order-form-input-text" placeholder=""
+                                    <input type="text" name="text" class="order-form-input-text" placeholder="" id="fullname"
                                         required>
-                                    <label class="order-form-input-label">Full Name</label>
+                                    <label for="fullname" class="order-form-input-label">Full Name</label>
                                 </div>
 
                                 <div class="order-input-group">
-                                    <input type="email" class="order-form-input-email" placeholder="" required>
-                                    <label class="order-form-input-label">Email</label>
+                                    <input type="email" class="order-form-input-email" placeholder="" autocomplete="x" id="email" required>
+                                    <label for="email" class="order-form-input-label">Email</label>
                                     <p class="text-invalid">Invalid email, try again</p>
                                 </div>
 
                                 <div class="order-input-group">
-                                    <textarea class="order-form-textarea" placeholder=""></textarea>
-                                    <label class="order-form-input-label-text-area">Comment</label>
+                                    <textarea class="order-form-textarea" id="textarea" placeholder=""></textarea>
+                                    <label for="textarea" class="order-form-input-label-text-area">Comment</label>
                                 </div>
                             </div>
 
                             <button type="submit" class="order-form-button">SEND</button>
 
                         </form>
-
 
                     </div>
                 </div>
