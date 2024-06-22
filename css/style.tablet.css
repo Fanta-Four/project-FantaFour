@@ -22,7 +22,6 @@
         height: auto;
     }
 
-    /* Add your table styles here */
 
     /* Vegetables section */
     .vegetables-container {
@@ -52,7 +51,6 @@
         align-items: flex-start;
         padding: 100px 32px;
         gap: 50px;
-        transition: all 1 ease-in-out;
     }
 
     .review-title {
@@ -243,5 +241,6 @@ flex-wrap: nowrap;
     .footer-bottom {
         padding-top: 50px;
     }
+
 }
 /* EOF */
