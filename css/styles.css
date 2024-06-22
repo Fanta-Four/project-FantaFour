@@ -668,11 +668,15 @@ body {
 
 
 /* Order */
+
 .order-box {
   display: flex;
   flex-direction: column;
   height: 977px;
   background-color: #7A3145; 
+  align-items: center;
+  margin: 0 auto;
+
   
   }
    
@@ -1045,7 +1049,8 @@ body {
     background-color: #386301;
     cursor: pointer;
   }
-    
+
+
 /* Footer Section */
 
 .footer-container {
@@ -1172,6 +1177,8 @@ body {
 .footer-bottom a:hover {
   text-decoration: underline;
 }
+
+
 
 .order-social-text {
   margin-left: 0px;
@@ -1376,7 +1383,8 @@ body {
     background-color: #386301;
     cursor: pointer;
   }
-  
+
+
 
 /* buradan sonrası daha sonra silinecektir */
 /* Junkyard */

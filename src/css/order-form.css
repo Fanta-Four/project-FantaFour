@@ -1,26 +1,31 @@
 /* Order */
 /* Author: Eda */
+
+.order-box-placement {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-color: #7a3145;
+
+}
+
 .order-box {
   display: flex;
   flex-direction: column;
   height: 977px;
-  background-color: #7A3145; 
-  
+  padding: 100px;
+ 
   }
-  
-  .order-title-text {
+
+ .order-title-text {
   display: flex;
   flex-direction: column;
   color: #FBFBFB;
   height: 193px;  
-  margin-top: 100px;
-  margin-left: 100px;
   font-weight: 600;
   letter-spacing: -1.5%;
   font-style: normal;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-bottom: 0px;
+   
   }
   
   .order-title {
@@ -53,6 +58,7 @@
   
   .order-form-social-box {
   display: flex;
+
   }
   
   .order-form {
@@ -65,7 +71,7 @@
   background-color: #FBFBFB;
   text-align: center;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 0px;
   }
   
   .order-form-text {
