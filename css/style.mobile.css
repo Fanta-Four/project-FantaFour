@@ -85,7 +85,9 @@
         width: 80%;
         
     }
-
+    .review-description {
+        width: 100%;
+    }
     .review-card-item:nth-last-child(1) {
         display: none;
     }
