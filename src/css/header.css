@@ -4,10 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #576F35;
+    z-index: 1000;
+    /* background-color: #576F35; */
+    background-color: transparent;
     height: 52px;
     margin-top: 30px;
     padding: 0px 100px;
+    max-width: 1280px;
+    width: 100%;
+    position: absolute;
   }
   
   .logo {
@@ -91,21 +96,68 @@
   }
   
   
-  /* Responsive tasarım için */ /*
-  @media (max-width: 768px) {
-    .header {
+    /* responsive menü */
+  
+    .menu-icon {
+      display: none;
+      cursor: pointer;
+    }
+  
+    .tablet-icon,
+    .mobile-icon,
+    .tablet-close-icon,
+    .mobile-close-icon {
+      display: none;
+    }
+  
+    .resp-menu {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: #7a3145;
+      z-index: 1000;
+      padding: 20px;
       flex-direction: column;
-      align-items: flex-start;
-      padding: 10px 20px;
+      align-items: center;
+      justify-content: center;
     }
   
-    .navbar {
-      margin-top: 10px;
+    .resp-menu ul {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      gap: 8px;
+      width: 115px;
+      height: 142px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
     }
   
-    .header-button {
-      margin-left: 0;
-      margin-top: 10px;
+    .resp-menu ul li {
+      margin: 10px 0;
     }
-  }
-  */
+  
+    .resp-header-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap: 10px;
+      border-radius: 30px;
+      padding: 16px 41px;
+      width: 155px;
+      height: 50px;
+      background: #fbfbfb;
+    }
+  
+    .close-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+    }

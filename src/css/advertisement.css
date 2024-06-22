@@ -58,3 +58,13 @@
     font: 600 76px / 1.05263 "Inter Tight", sans-serif;
     color: #141414;
   }
+
+    /* Tablet görünümü */
+    .tablet-content {
+      display: none;
+    }
+
+    /* Mobil görünüm */
+    .mobile-content {
+      display: none;
+    }
