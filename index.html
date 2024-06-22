@@ -72,13 +72,13 @@
 
         <!-- Scripts -->
         function toggleMenu() {
-          var x = document.getElementById("hamburger-menu");
-          if (x.style.display === "flex") {
-            x.style.display = "none";
-          } 
-          else {
-            x.style.display = "flex";
-          }
+            var x = document.getElementById("hamburger-menu");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "flex";
+            }
         }
     </script>
 
@@ -214,18 +214,20 @@
     <section id="hero">
         <!-- Content for "Hero" section here -->
         <div class="hero-container">
-        <div class="hero-content-capsule">
-        <div class="hero-text-content">
-            <h1>ORGANIC VEGETABLES TO YOUR DIET TODAY!</h1>
-            <p>Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables available.
-                Fresh Harvest Box has got you covered. Fresh, high-quality vegetables in expertly curated vegetable
-                baskets delivered to you.</p>
+            <div class="hero-content-capsule">
+                <div class="hero-text-content">
+                    <h1>ORGANIC VEGETABLES TO YOUR DIET TODAY!</h1>
+                    <p>Our expertly curated vegetable baskets are made with the freshest, highest quality vegetables
+                        available.
+                        Fresh Harvest Box has got you covered. Fresh, high-quality vegetables in expertly curated
+                        vegetable
+                        baskets delivered to you.</p>
+                </div>
+                <div class="hero-image-content">
+                    <img src="./images/basket.webp" alt="Vegetable Basket">
+                </div>
+            </div>
         </div>
-        <div class="hero-image-content">
-            <img src="./images/basket.webp" alt="Vegetable Basket">
-        </div>
-    </div>
-    </div>
     </section>
 
 
@@ -250,13 +252,16 @@
                 <div class="how-it-order-list-container">
                     <ol class="how-it-order-list">
                         <li>
+                            <div class="how-it-order-counter"></div>
                             <p>Just choose <span> the vegetable </span> you want to order by clicking on
                                 the checkboxes <span>next to it</span>.</p>
                         </li>
                         <li>
+                            <div class="how-it-order-counter"></div>
                             <p>Click on <span>the basket </span> and fill out the form.</p>
                         </li>
                         <li>
+                            <div class="how-it-order-counter"></div>
                             <p>Sit back and relax! Your <span> fresh vegetables</span> basket will be
                                 delivered.</p>
                         </li>
@@ -433,14 +438,16 @@
 
             <div class="order-form-social-box">
                 <div class="order-form">
-                  <div class="order-form-box">   
-                    <div class="order-form-text-container">
-                    <div class="order-form-title-text">  
-                        <p class="order-form-text">Ordering <span class="order-form-span-from-us">from us</span> is
-                            quick and easy! Fill out <span class="order-form-one-span-the-form">the form</span> below
-                            and we will contact you !</p>
-                    </div>
-                </div>
+                    <div class="order-form-box">
+                        <div class="order-form-text-container">
+                            <div class="order-form-title-text">
+                                <p class="order-form-text">Ordering <span class="order-form-span-from-us">from us</span>
+                                    is
+                                    quick and easy! Fill out <span class="order-form-one-span-the-form">the form</span>
+                                    below
+                                    and we will contact you !</p>
+                            </div>
+                        </div>
                         <form>
                             <div class="order-form-input-group">
                                 <div class="order-input-group">
@@ -506,8 +513,8 @@
         </div>
 
         </div>
-        
-        
+
+
     </section>
 
     <!-- Footer Section -->
@@ -515,38 +522,38 @@
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-section">
-                        <div class="footer-logo">
-                            <a href="">
+                    <div class="footer-logo">
+                        <a href="">
                             <svg width="194" height="18" class="logo-size">
                                 <use href="./images/icons.svg#icon-logo_tablet_desktop"></use>
                             </svg>
-                            </a>
-                        
-                            <p>Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the
-                                perfect choice.</p>
+                        </a>
+
+                        <p>Whether you're looking for a healthy snack or a thoughtful gift, our fruit baskets are the
+                            perfect choice.</p>
+                    </div>
+
+                    <div class=link-contact>
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="#">how it works</a></li>
+                                <li><a href="#">vegetables</a></li>
+                                <li><a href="#">reviews</a></li>
+                            </ul>
                         </div>
 
-                        <div class=link-contact>
-                            <div class="footer-links">
-                                <ul>
-                                    <li><a href="#">how it works</a></li>
-                                    <li><a href="#">vegetables</a></li>
-                                    <li><a href="#">reviews</a></li>
-                                </ul>
-                            </div>
+                        <div class="footer-contact">
+                            <a href="tel:+380684439426">+380 (68) 443-94-26</a>
 
-                            <div class="footer-contact">
-                                    <a href="tel:+380684439426">+380 (68) 443-94-26</a>
-
-                                    <p>1678 S. Pioneer Road Salt<br>Lake City UT 84104</p>
-                            </div>
-                        </div>    
+                            <p>1678 S. Pioneer Road Salt<br>Lake City UT 84104</p>
+                        </div>
+                    </div>
                 </div>
-                    
-                        <div class="footer-bottom">
-                            <p><a href="#">Privacy Policy</a> / <a href="#">Cookie settings</a></p>
-                            <p>© Green Harvest 2023</p>
-                        </div>
+
+                <div class="footer-bottom">
+                    <p><a href="#">Privacy Policy</a> / <a href="#">Cookie settings</a></p>
+                    <p>© Green Harvest 2023</p>
+                </div>
             </div>
         </div>
     </footer>
