@@ -7,7 +7,6 @@
     padding: 100px;
     display: flex;
     flex-direction: column;
-    transition: all 1 ease-in-out;
 }
 .review-section-title {
     text-transform: uppercase;
@@ -21,7 +20,6 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    transition: all 1 ease-in-out;
 }
 .title-color-span {
   color: var(--bg1-color);
@@ -53,8 +51,8 @@
     background: #fbfbfb;
     padding: 20px;
     border-radius: 24px;
-    opacity: 0px;
-    transition: all 1 ease-in-out;
+    transition: all 1s ease-in-out;
+    
 }
 .review-card {
     border-radius: 10px;
@@ -69,6 +67,8 @@
     height: 56px;
     border-radius: 50%;
     margin-bottom: 20px;
+    background-color: rgba(224, 224, 224, 1);
+    ;
 }
 .review-card-customer-name {
     color: var(--primary-color);

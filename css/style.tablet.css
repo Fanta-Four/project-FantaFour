@@ -8,7 +8,9 @@
         flex-direction: row;
         text-align: left;
     }
-
+    .hero-content-capsule {
+        flex-direction: column;
+    }
     .hero-text-content {
         padding: 20px;
     }
@@ -22,8 +24,6 @@
     }
 
 
-    /* Add your table styles here */
-
     /* Vegetables section */
     .vegetables-container {
         display: flex;
@@ -31,6 +31,7 @@
         background-color: var(--bg2-color);
         padding: 100px 32px;
     }
+
 
     .vegetables-cards-list {
         display: flex;
@@ -40,6 +41,7 @@
         max-width: 704px;
         transition: all 0.3s ease-in-out;
     }
+
 
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
@@ -52,11 +54,12 @@
         align-items: flex-start;
         padding: 100px 32px;
         gap: 50px;
-        transition: all 1 ease-in-out;
     }
+
     .review-title {
         max-width: 553px;
     }
+
     .review-cards-container {
         width: 100%;
         justify-content: center;
@@ -79,40 +82,40 @@
     height: 1576px;
     padding-top: 100px;
 
- }
+    }
 
-.order-form-box {
-    width: 428px;
-    margin: auto;
+    .order-form-box {
+        width: 428px;
+        margin: auto;
 
-}
+    }
 
-.order-first-section {
-    height: 277px;
-    width: 768px;
-    padding-left: 32px;
-    
-}
+    .order-first-section {
+        height: 277px;
+        width: 768px;
+        padding-left: 32px;
 
-.order-title-text {
-    display: flex;
-    flex-direction: column;
-    width: 640px;
-    margin: 0px;
-    padding: 0;
-    height: 277px;
-   
-}
+    }
 
-.order-title {
-    height: 192px;
-    width: 640px;
-}
-    
-.order-text {
-    width: 100%;
-    height: 60px;
-}
+    .order-title-text {
+        display: flex;
+        flex-direction: column;
+        width: 640px;
+        margin: 0px;
+        padding: 0;
+        height: 277px;
+
+    }
+
+    .order-title {
+        height: 192px;
+        width: 640px;
+    }
+
+    .order-text {
+        width: 100%;
+        height: 60px;
+    }
 
 .order-form-social-box {
 display: flex;
@@ -123,17 +126,17 @@ margin-top: 50px;
 width: 768px;
  }
 
-.order-form {
-width: 628px;
-height: 534px;
-margin: auto;
-}
+    .order-form {
+        width: 628px;
+        height: 534px;
+        margin: auto;
+    }
 
-.order-social-box {
-width: 628px;
-height: 490px;
-margin-top: 25px;
-}
+    .order-social-box {
+        width: 628px;
+        height: 490px;
+        margin-top: 25px;
+    }
 
     
 .order-social-ul {
@@ -221,5 +224,43 @@ flex-wrap: nowrap;
          
 
 
+
+
+
+
+    /*FOOTER*/
+
+ .footer-content {
+     width: 768px;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .footer-container {
+     display: flex;
+     justify-content: center;
+ }
+
+ .link-contact {
+     display: flex;
+     flex-direction: column;
+     gap: 64px;
+ }
+
+ .footer-section {
+     width: auto;
+     display: flex;
+     flex-direction: row;
+     gap: 64px;
+     justify-content: center;
+
+ }
+
+ .footer-bottom {
+     padding-top: 50px;
+ }
+ 
 }
 /* EOF */
