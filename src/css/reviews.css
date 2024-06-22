@@ -67,6 +67,8 @@
     height: 56px;
     border-radius: 50%;
     margin-bottom: 20px;
+    background-color: rgba(224, 224, 224, 1);
+    ;
 }
 .review-card-customer-name {
     color: var(--primary-color);
