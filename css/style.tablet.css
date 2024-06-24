@@ -1,5 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-
+@media screen and (min-width: 768px) and (max-width: 1279px){
     .container {
         flex-direction: row;
     }
@@ -24,8 +23,6 @@
     }
 
 
-    /* Add your table styles here */
-
     /* Vegetables section */
     .vegetables-container {
         display: flex;
@@ -33,7 +30,6 @@
         background-color: var(--bg2-color);
         padding: 100px 32px;
     }
-
 
     .vegetables-cards-list {
         display: flex;
@@ -43,7 +39,6 @@
         max-width: 704px;
         transition: all 0.3s ease-in-out;
     }
-
 
     .vegetables-cards-list-item {
         background-color: #fbfbfb;
@@ -76,8 +71,8 @@
         display: none;
     }
 
- /* order-form */
-/* .order-box {
+    /* order-form */
+    /* .order-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,123 +141,106 @@ display: flex;
 flex-wrap: nowrap;
 } */
 
+    /* How it works section */
 
-/* How it works section */
+    .section-howitworks {
+        flex-direction: column;
+        height: 1539px;
+        top: 1024px;
+    }
 
-.section-howitworks {
-    flex-direction: column;
-    height: 1539px;
-    top: 1024px;
+    .section-image {
+        width: 768px;
+        height: 840px;
+        padding: 100px 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-image .section-image-container {
+        width: 640px;
+        height: 640px;
+    }
+    .section-image-img {
+        width: 640px;
+        height: 640px;
+    }
 
+    .section-how-it-order {
+        width: 768px;
+        height: 840px;
+        padding: 100px 159px;
+    }
 
-}
+    .how-it-order-text {
+        width: 450px;
+        height: 499px;
+    }
 
-.section-image {
-    width: 768px;
-    height: 840px;
-    padding: 100px 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .text-head-paragraph {
+        width: 450px;
+        height: 181px;
+        gap: 25px;
+        margin-bottom: 20px;
+    }
 
-}
-.section-image .section-image-container {
-    width: 640px;
-    height: 640px;
+    .text-head-paragraph h1 {
+        width: 450px;
+        height: 96px;
+        gap: 0px;
+    }
 
-  }
-  .section-image-img  {
-    width: 640px;
-    height: 640px;
-  }
-
-.section-how-it-order {
-    width: 768px;
-    height: 699px;
-    padding: 100px 159px;
-
-}
-
-.how-it-order-text {
-    width: 450px;
-    height: 499px;
-
-
-}
-
-.text-head-paragraph {
-    width: 450px;
-    height: 181px;
-    gap: 25px;
-    margin-bottom: 20px;
-}
-
-.text-head-paragraph h1 {
-    width: 450px;
-    height: 96px;
-    gap: 0px;
-
-
-}
-
-.text-header-paragraph p {
-    width: 450px;
-    height: 60px;
-    gap: 25px;
-
-}
-         .how-it-order-list-container{
-            width: 450px;
-            height: 268px;
-            gap: 20px;
-            opacity: 0px;
-         }
-         .how-it-order-list{
-            width: 401px;
-            height: 52px;
-            gap: 24px;
-            opacity: 0px;
-         }
-         
-
-
-
-
-
+    .text-header-paragraph p {
+        width: 450px;
+        height: 60px;
+        gap: 25px;
+    }
+    .how-it-order-list-container {
+        width: 450px;
+        height: 268px;
+        gap: 20px;
+        opacity: 0px;
+    }
+    .how-it-order-list {
+        width: 401px;
+        height: 52px;
+        gap: 24px;
+        opacity: 0px;
+    }
 
     /*FOOTER*/
 
- .footer-content {
-     width: 768px;
-     margin: 0;
-     padding: 0;
-     display: flex;
-     flex-direction: column;
- }
+    .footer-content {
+        width: 768px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
- .footer-container {
-     display: flex;
-     justify-content: center;
- }
+    .footer-container {
+        display: flex;
+        justify-content: center;
+    }
 
- .link-contact {
-     display: flex;
-     flex-direction: column;
-     gap: 64px;
- }
+    .link-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
 
- .footer-section {
-     width: auto;
-     display: flex;
-     flex-direction: row;
-     gap: 64px;
-     justify-content: center;
+    .footer-section {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 64px;
+        justify-content: center;
+    }
 
- }
+    .footer-bottom {
+        padding-top: 50px;
+    }
 
- .footer-bottom {
-     padding-top: 50px;
- }
- 
 }
 /* EOF */

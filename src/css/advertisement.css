@@ -1,70 +1,76 @@
 /* Discount */
 /* Author: Pinar */
-
+.discount-banner {
+    display: none;
+  }
 #discount {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    padding: 100px;
-    height: 440px;
-    background: white;
+    background: #fbfbfb;
+    
   }
-  
-  .text-box {
-    width: 1080px;
-    height: 240px;
-    margin: 100px;
-    position: relative;
-  }
-  
-  .text-content {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .discount {
-    font: 600 76px / 1.05263 "Inter Tight", sans-serif;
-    letter-spacing: -0.01em;
+.discount-span {
+    display: inline-flex;
+    font-family: "Inter Tight", sans-serif;
     text-transform: uppercase;
     color: #fbfbfb;
     border-radius: 12px;
-    height: 86px;
     background: #576f35;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
-    white-space: nowrap;
-    /* Tek satırda görüntülemek için */
-  }
-  
-  .taste {
-    font: 600 76px / 1.05263 "Inter Tight", sans-serif;
-    color: #141414;
-    display: inline-flex;
-    align-items: center;
-  }
-  
-  .tagline {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .line2,
-  .line3 {
-    font: 600 76px / 1.05263 "Inter Tight", sans-serif;
+    }
+.discount-container {
+  max-width: 1280px;
+}
+.discount-p {
+    font-family: "Inter Tight", sans-serif;
+    text-transform: uppercase;
     color: #141414;
   }
 
-    /* Tablet görünümü */
-    .tablet-content {
-      display: none;
+@media screen and (min-width: 375px) {
+  #discount {
+    padding: 80px 10px;
+  }
+  
+  .discount-span {
+    line-height: 50px;
+    padding-left:10px;
+    margin-right: 5px;
     }
-
-    /* Mobil görünüm */
-    .mobile-content {
-      display: none;
+  .discount-p {
+    font-weight: 600;
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #discount {
+    padding: 100px 16px;
+  }
+  
+  .discount-span {
+    line-height: 70px;
+    padding:0 10px;
+    margin-right: 5px;
     }
+  .discount-p {
+    font-weight: 600;
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #discount {
+    padding: 100px;
+  }
+  
+  .discount-span {
+    line-height: 80px;
+    padding-left:10px;
+    margin-right: 5px;
+    }
+  .discount-p {
+    font-weight: 600;
+    font-size: 76px;
+  }
+}
